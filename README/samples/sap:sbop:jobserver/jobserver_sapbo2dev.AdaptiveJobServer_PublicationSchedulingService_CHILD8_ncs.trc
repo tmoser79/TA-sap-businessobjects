@@ -1,0 +1,59 @@
+
+---------------------------------------------------
+trc file: "jobserver_sapbo2dev.AdaptiveJobServer_PublicationSchedulingService_CHILD8_ncs.trc", trc level: 1, release: "721"
+---------------------------------------------------
+
+[Thr 22726275184384] Wed Feb  1 14:18:18 2023
+[Thr 22726275184384] NCS trace timer thread is successfully triggered
+[Thr 22726275184384] Trace dispatcher thread is successfully triggered
+[Thr 22726275184384] NCS data timer thread is successfully triggered
+[Thr 22726275184384] Data dispatcher thread is successfully triggered
+[Thr 22726275184384] NCS library version 2.3.13 (unicode) loaded
+[Thr 22726275184384] NCS_ProcInit API invoked
+[Thr 22726275184384] NCS configuration info begin----------------
+[Thr 22726275184384] NCS configuration loaded from file /data/sap_bo43/sap_bobj/enterprise_xi40/conf/sapbo2dev/
+[Thr 22726275184384] Current NCS Configuration:
+[Thr 22726275184384] _socket_recv_timeout=1000;
+[Thr 22726275184384] _socket_send_timeout=500;
+[Thr 22726275184384] agent_host=localhost;
+[Thr 22726275184384] agent_port=6404;
+[Thr 22726275184384] agent_type=2;
+[Thr 22726275184384] auto_transaction_trace_threshold=600;
+[Thr 22726275184384] cache_section_count=2;
+[Thr 22726275184384] context_map_bucket=13;
+[Thr 22726275184384] datasending_interval=60;
+[Thr 22726275184384] datasending_method=socket;
+[Thr 22726275184384] empty_timeout=300;
+[Thr 22726275184384] instrument_level_threshold=10;
+[Thr 22726275184384] lib_trace_level=1;
+[Thr 22726275184384] logdir=/data/sap_bo43/sap_bobj/logging/;
+[Thr 22726275184384] max_components_per_promotedstack=50;
+[Thr 22726275184384] max_components_per_transaction=5000;
+[Thr 22726275184384] perf_metric_scope=0;
+[Thr 22726275184384] skip_times_below_threshold=500;
+[Thr 22726275184384] system_name=SBOP ENTERPRISE\sapbo-dev;
+[Thr 22726275184384] trace_enabled_via_e2e=1;
+[Thr 22726275184384] trace_enabled_via_em=0;
+[Thr 22726275184384] trace_preview_timeout=120;
+[Thr 22726275184384] tracecheck_interval=5;
+[Thr 22726275184384] tracesize_threshold=1000000;
+[Thr 22726275184384] zombie_check_interval=300;
+[Thr 22726275184384] zombie_timeout=86400;
+[Thr 22726275184384] NCS configuration info end----------------
+
+[Thr 22725654152960] Wed Feb  1 14:18:23 2023
+[Thr 22725654152960] ***LOG Q0I=> NiPConnect2: 127.0.0.1:6404: connect (111: Connection refused) [nixxi.cpp 3283]
+[Thr 22725654152960] *** ERROR => NiPConnect2: SiPeekPendConn failed for hdl 5/sock 111
+    (SI_ECONN_REFUSE/111; I4; ST; 127.0.0.1:6404) [nixxi.cpp    3283]
+[Thr 22725654152960] *** ERROR => NI raw handle failed to be initilized at IDEL to CONNECTED, connection to agent destination failed to be established  in agent 1 [ncsmtdatasen 137]
+
+[Thr 22725649950464] Wed Feb  1 14:19:18 2023
+[Thr 22725649950464] *** ERROR => NI raw handle failed to be initilized at IDEL to CONNECTED, connection to agent destination failed to be established  in agent 1 [ncsmtdatasen 137]
+
+[Thr 22725625669376] Wed Feb  1 14:41:23 2023
+[Thr 22725625669376] NCS_ProcExit API started
+
+[Thr 22725625669376] Wed Feb  1 14:41:24 2023
+[Thr 22725625669376] Timer threads are successfully finished
+[Thr 22725625669376] Data sending threads are successfully finished
+[Thr 22725625669376] NCS_ProcExit API invoked
