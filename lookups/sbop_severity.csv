@@ -1,0 +1,6 @@
+severity_id,severity
+ ,None
+S,Success
+W,Warning
+E,Error
+A,Assertion
