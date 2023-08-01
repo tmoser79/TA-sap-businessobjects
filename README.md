@@ -10,3 +10,4 @@
 |sap:sbop:fileserver | TA-sap-businessobjects	| Custom TA | fileserver_sapbo2dev.InputFileRepository_30832_2023_03_14_06_11_14_599_trace.glf|
 |sap:sbop:jobserver | TA-sap-businessobjects| Custom TA | jobserver_sapbo2dev.AdaptiveJobServer_AuthenticationUpdateSchedulingService_CHILD0_1777415_2023_01_24_17_42_24_398_trace.glf<br>jobserver_sapbo2dev.AdaptiveJobServer_LCMSchedulingService_CHILD0_4047770_2023_01_08_21_31_24_642_trace.glf<br>jobserver_sapbo2dev.AdaptiveJobServer_PublicationSchedulingService_CHILD0_338002_2023_02_01_22_04_11_803_trace.glf<br>jobserver_sapbo2dev.AdaptiveJobServer_WebIJavaSchedulingService_CHILD0_25792_2023_03_03_21_00_07_999_trace.glf|
 |sap:sbop:jobserver:trace	|TA-sap-businessobjects	| Custom TA |	jobserver_sapbo2dev.AdaptiveJobServer_PublicationSchedulingService_CHILD8_ncs.trc|
+|sap:sbop:jobserver:webapp|TA-sap-businessobjects	| Custom TA |	Webapp_BIlaunchpad_trace.000001.glf<br>Webapp_CMC_trace.000001.glf|
