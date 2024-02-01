@@ -14,8 +14,6 @@ trc file: "jobserver_sapbo2dev.AdaptiveJobServer_PublicationSchedulingService_CH
 [Thr 22726275184384] NCS configuration loaded from file /data/sap_bo43/sap_bobj/enterprise_xi40/conf/sapbo2dev/
 [Thr 22726275184384] Current NCS Configuration:
 [Thr 22726275184384] _socket_recv_timeout=1000;
-[Thr 22726275184384] _socket_send_timeout=500;
-[Thr 22726275184384] agent_host=localhost;
 [Thr 22726275184384] agent_port=6404;
 [Thr 22726275184384] agent_type=2;
 [Thr 22726275184384] auto_transaction_trace_threshold=600;

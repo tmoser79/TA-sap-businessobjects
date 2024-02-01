@@ -1,6 +1,6 @@
 # TA-sap-businessobjects
 
-**Mappting Matrix**
+**Mapping Matrix**
 
 | Sourcetype | Technology Add-on | Comment | Sample File |
 | :--- | :--- | :--- | :--- |

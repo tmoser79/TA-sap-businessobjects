@@ -9307,8 +9307,8 @@ HEADER_END
 |E73A23FB0D6F40C1BC7B1CF95D24BAF92452|2023 01 16 19:49:35.395|+0200|Error| |>>|E| |aps_sapbo2dev.APS.Search|14424|  73|Server State Change| |0|0|0|0|-|-|-|-|-|-||||||||||||	at java.lang.Thread.run(Thread.java:836)
 |E73A23FB0D6F40C1BC7B1CF95D24BAF92453|2023 01 16 19:49:35.762|+0200|Error| |>>|E| |aps_sapbo2dev.APS.Search|14424|  73|Server State Change| |0|0|0|0|-|-|-|-|-|-||||||||||||Invalid class file: com/sap/sl/datasource/service/GeographicDimensionWrapper.class
 |E73A23FB0D6F40C1BC7B1CF95D24BAF92454|2023 01 16 19:49:35.762|+0200|Error| |>>|E| |aps_sapbo2dev.APS.Search|14424|  73|Server State Change| |0|0|0|0|-|-|-|-|-|-||||||||||||Invalid class file: com/sap/sl/sdk/parser/xml/writer/XmlDPCommands.class
-|E73A23FB0D6F40C1BC7B1CF95D24BAF92455|2023 02 02 07:47:33.071|+0200| |Fatal|  | | |aps_sapbo2dev.APS.Search|14424|724623|server-shutdown | |40|0|0|0|BIPSDK.InfoStore:query|srv010214.mud.internal.co.za:14424:724623.669067:1|-|-|BIPSDK.InfoStore:query|srv010214.mud.internal.co.za:14424:724623.669067:1|CmiwZu1oGkVimmJuwvqpync9ffd1|||||||||com.crystaldecisions.enterprise.ocaframework.ManagedService||invoke(): the service is dead 
-com.crystaldecisions.enterprise.ocaframework.OCAFrameworkException$AllServicesDown: Unable to find servers in CMS srv010214.mud.internal.co.za:6400 and cluster @sapbo-dev with kind cms and service null. All such servers could be down or disabled by the administrator. (FWM 01014)
+|E73A23FB0D6F40C1BC7B1CF95D24BAF92455|2023 02 02 07:47:33.071|+0200| |Fatal|  | | |aps_sapbo2dev.APS.Search|14424|724623|server-shutdown | |40|0|0|0|BIPSDK.InfoStore:query|myserver.local:14424:724623.669067:1|-|-|BIPSDK.InfoStore:query|myserver.local:14424:724623.669067:1|CmiwZu1oGkVimmJuwvqpync9ffd1|||||||||com.crystaldecisions.enterprise.ocaframework.ManagedService||invoke(): the service is dead 
+com.crystaldecisions.enterprise.ocaframework.OCAFrameworkException$AllServicesDown: Unable to find servers in CMS myserver.local:6400 and cluster @sapbo-dev with kind cms and service null. All such servers could be down or disabled by the administrator. (FWM 01014)
 	at com.crystaldecisions.enterprise.ocaframework.ServerController.validateServer(ServerController.java:425)
 	at com.crystaldecisions.enterprise.ocaframework.ServiceMgr.validateServer(ServiceMgr.java:1006)
 	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validateServer(ManagedSession.java:744)
@@ -9345,8 +9345,8 @@ com.crystaldecisions.enterprise.ocaframework.OCAFrameworkException$AllServicesDo
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:836)
 
-|E73A23FB0D6F40C1BC7B1CF95D24BAF92456|2023 02 02 07:47:34.154|+0200| |Fatal|  | | |aps_sapbo2dev.APS.Search|14424|724623|server-shutdown | |24|0|0|0|BIPSDK.InfoStore:query|srv010214.mud.internal.co.za:14424:724623.669068:1|-|-|BIPSDK.InfoStore:query|srv010214.mud.internal.co.za:14424:724623.669068:1|CmiwZu1oGkVimmJuwvqpync9ffd2|||||||||com.crystaldecisions.enterprise.ocaframework.ManagedService||invoke(): the service is dead 
-com.crystaldecisions.enterprise.ocaframework.OCAFrameworkException$AllServicesDown: Unable to find servers in CMS srv010214.mud.internal.co.za:6400 and cluster @sapbo-dev with kind cms and service null. All such servers could be down or disabled by the administrator. (FWM 01014)
+|E73A23FB0D6F40C1BC7B1CF95D24BAF92456|2023 02 02 07:47:34.154|+0200| |Fatal|  | | |aps_sapbo2dev.APS.Search|14424|724623|server-shutdown | |24|0|0|0|BIPSDK.InfoStore:query|myserver.local:14424:724623.669068:1|-|-|BIPSDK.InfoStore:query|myserver.local:14424:724623.669068:1|CmiwZu1oGkVimmJuwvqpync9ffd2|||||||||com.crystaldecisions.enterprise.ocaframework.ManagedService||invoke(): the service is dead 
+com.crystaldecisions.enterprise.ocaframework.OCAFrameworkException$AllServicesDown: Unable to find servers in CMS myserver.local:6400 and cluster @sapbo-dev with kind cms and service null. All such servers could be down or disabled by the administrator. (FWM 01014)
 	at com.crystaldecisions.enterprise.ocaframework.ServerController.validateServer(ServerController.java:425)
 	at com.crystaldecisions.enterprise.ocaframework.ServiceMgr.validateServer(ServiceMgr.java:1006)
 	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validate(ManagedSession.java:532)
@@ -9381,8 +9381,8 @@ com.crystaldecisions.enterprise.ocaframework.OCAFrameworkException$AllServicesDo
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:836)
 
-|E73A23FB0D6F40C1BC7B1CF95D24BAF92457|2023 02 02 07:47:36.207|+0200| |Fatal|  | | |aps_sapbo2dev.APS.Search|14424|724623|server-shutdown | |24|0|0|0|BIPSDK.InfoStore:query|srv010214.mud.internal.co.za:14424:724623.669069:1|-|-|BIPSDK.InfoStore:query|srv010214.mud.internal.co.za:14424:724623.669069:1|CmiwZu1oGkVimmJuwvqpync9ffd3|||||||||com.crystaldecisions.enterprise.ocaframework.ManagedService||invoke(): the service is dead 
-com.crystaldecisions.enterprise.ocaframework.OCAFrameworkException$AllServicesDown: Unable to find servers in CMS srv010214.mud.internal.co.za:6400 and cluster @sapbo-dev with kind cms and service null. All such servers could be down or disabled by the administrator. (FWM 01014)
+|E73A23FB0D6F40C1BC7B1CF95D24BAF92457|2023 02 02 07:47:36.207|+0200| |Fatal|  | | |aps_sapbo2dev.APS.Search|14424|724623|server-shutdown | |24|0|0|0|BIPSDK.InfoStore:query|myserver.local:14424:724623.669069:1|-|-|BIPSDK.InfoStore:query|myserver.local:14424:724623.669069:1|CmiwZu1oGkVimmJuwvqpync9ffd3|||||||||com.crystaldecisions.enterprise.ocaframework.ManagedService||invoke(): the service is dead 
+com.crystaldecisions.enterprise.ocaframework.OCAFrameworkException$AllServicesDown: Unable to find servers in CMS myserver.local:6400 and cluster @sapbo-dev with kind cms and service null. All such servers could be down or disabled by the administrator. (FWM 01014)
 	at com.crystaldecisions.enterprise.ocaframework.ServerController.validateServer(ServerController.java:425)
 	at com.crystaldecisions.enterprise.ocaframework.ServiceMgr.validateServer(ServiceMgr.java:1006)
 	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validate(ManagedSession.java:532)
@@ -9435,7 +9435,7 @@ Caused by: java.lang.reflect.InvocationTargetException
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.businessobjects.framework.servers.platform.modules.scope.internal.ScopeListener.fireEvent(ScopeListener.java:107)
 	... 8 more
-Caused by: java.lang.RuntimeException: All the servers with CMS srv010214.mud.internal.co.za:6400, cluster @sapbo-dev, kind cms which host service null, are down or disabled
+Caused by: java.lang.RuntimeException: All the servers with CMS myserver.local:6400, cluster @sapbo-dev, kind cms which host service null, are down or disabled
 
 	at com.sap.businessobjects.platform.search.common.Utilities.executeQueries(Utilities.java:125)
 	at com.sap.businessobjects.platform.search.common.Utilities.atomicExecute(Utilities.java:50)
@@ -9444,10 +9444,10 @@ Caused by: java.lang.RuntimeException: All the servers with CMS srv010214.mud.in
 	at com.sap.businessobjects.platform.search.common.backend.PlatformSearchEngine.stop(PlatformSearchEngine.java:467)
 	at com.sap.businessobjects.platform.search.service.occa2.PlatformSearchServiceOCCA2.systemStop(PlatformSearchServiceOCCA2.java:39)
 	... 13 more
-Caused by: com.crystaldecisions.sdk.exception.SDKServerException: All the servers with CMS srv010214.mud.internal.co.za:6400, cluster @sapbo-dev, kind cms which host service null, are down or disabled
+Caused by: com.crystaldecisions.sdk.exception.SDKServerException: All the servers with CMS myserver.local:6400, cluster @sapbo-dev, kind cms which host service null, are down or disabled
 
 cause:com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
-detail:All the servers with CMS srv010214.mud.internal.co.za:6400, cluster @sapbo-dev, kind cms which host service null, are down or disabled
+detail:All the servers with CMS myserver.local:6400, cluster @sapbo-dev, kind cms which host service null, are down or disabled
 
 	at com.crystaldecisions.sdk.exception.SDKServerException.map(SDKServerException.java:99)
 	at com.crystaldecisions.sdk.exception.SDKException.map(SDKException.java:127)
@@ -9469,8 +9469,8 @@ Caused by: com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:i
 	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.queryHelper(InternalInfoStore.java:1095)
 	... 26 more
 
-|E73A23FB0D6F40C1BC7B1CF95D24BAF92459|2023 02 02 07:47:40.225|+0200| |Fatal|  | | |aps_sapbo2dev.APS.Search|14424|  99|Platform Search Service (2023 01 16 19 49 36 186): system monitoring thread| |24|0|0|0|BIPSDK.InfoStore:query|srv010214.mud.internal.co.za:14424:99.669070:1|-|-|BIPSDK.InfoStore:query|srv010214.mud.internal.co.za:14424:99.669070:1|CmiwZu1oGkVimmJuwvqpync9ffd4|||||||||com.crystaldecisions.enterprise.ocaframework.ManagedService||invoke(): the service is dead 
-com.crystaldecisions.enterprise.ocaframework.OCAFrameworkException$AllServicesDown: Unable to find servers in CMS srv010214.mud.internal.co.za:6400 and cluster @sapbo-dev with kind cms and service null. All such servers could be down or disabled by the administrator. (FWM 01014)
+|E73A23FB0D6F40C1BC7B1CF95D24BAF92459|2023 02 02 07:47:40.225|+0200| |Fatal|  | | |aps_sapbo2dev.APS.Search|14424|  99|Platform Search Service (2023 01 16 19 49 36 186): system monitoring thread| |24|0|0|0|BIPSDK.InfoStore:query|myserver.local:14424:99.669070:1|-|-|BIPSDK.InfoStore:query|myserver.local:14424:99.669070:1|CmiwZu1oGkVimmJuwvqpync9ffd4|||||||||com.crystaldecisions.enterprise.ocaframework.ManagedService||invoke(): the service is dead 
+com.crystaldecisions.enterprise.ocaframework.OCAFrameworkException$AllServicesDown: Unable to find servers in CMS myserver.local:6400 and cluster @sapbo-dev with kind cms and service null. All such servers could be down or disabled by the administrator. (FWM 01014)
 	at com.crystaldecisions.enterprise.ocaframework.ServerController.validateServer(ServerController.java:425)
 	at com.crystaldecisions.enterprise.ocaframework.ServiceMgr.validateServer(ServiceMgr.java:1006)
 	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validate(ManagedSession.java:532)
@@ -9491,8 +9491,8 @@ com.crystaldecisions.enterprise.ocaframework.OCAFrameworkException$AllServicesDo
 	at com.sap.businessobjects.platform.search.common.backend.PlatformSearchEngine$3.run(PlatformSearchEngine.java:832)
 	at java.lang.Thread.run(Thread.java:836)
 
-|E73A23FB0D6F40C1BC7B1CF95D24BAF9245a|2023 02 02 07:47:40.234|+0200| |Fatal|  | | |aps_sapbo2dev.APS.Search|14424|  98|Platform Search Service (2023 01 16 19 49 36 186): heart beat thread| |24|0|0|0|BIPSDK.InfoStore:query|srv010214.mud.internal.co.za:14424:98.669071:1|-|-|BIPSDK.InfoStore:query|srv010214.mud.internal.co.za:14424:98.669071:1|CmiwZu1oGkVimmJuwvqpync9ffd5|||||||||com.crystaldecisions.enterprise.ocaframework.ManagedService||invoke(): the service is dead 
-com.crystaldecisions.enterprise.ocaframework.OCAFrameworkException$AllServicesDown: Unable to find servers in CMS srv010214.mud.internal.co.za:6400 and cluster @sapbo-dev with kind cms and service null. All such servers could be down or disabled by the administrator. (FWM 01014)
+|E73A23FB0D6F40C1BC7B1CF95D24BAF9245a|2023 02 02 07:47:40.234|+0200| |Fatal|  | | |aps_sapbo2dev.APS.Search|14424|  98|Platform Search Service (2023 01 16 19 49 36 186): heart beat thread| |24|0|0|0|BIPSDK.InfoStore:query|myserver.local:14424:98.669071:1|-|-|BIPSDK.InfoStore:query|myserver.local:14424:98.669071:1|CmiwZu1oGkVimmJuwvqpync9ffd5|||||||||com.crystaldecisions.enterprise.ocaframework.ManagedService||invoke(): the service is dead 
+com.crystaldecisions.enterprise.ocaframework.OCAFrameworkException$AllServicesDown: Unable to find servers in CMS myserver.local:6400 and cluster @sapbo-dev with kind cms and service null. All such servers could be down or disabled by the administrator. (FWM 01014)
 	at com.crystaldecisions.enterprise.ocaframework.ServerController.validateServer(ServerController.java:425)
 	at com.crystaldecisions.enterprise.ocaframework.ServiceMgr.validateServer(ServiceMgr.java:1006)
 	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validate(ManagedSession.java:532)

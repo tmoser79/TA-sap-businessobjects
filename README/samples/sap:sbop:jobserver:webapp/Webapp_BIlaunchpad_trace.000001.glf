@@ -6,7 +6,7 @@ ESC_CHARACTER:27
 COLUMNS:Location|Guid|Time|Tzone|Trace|Log|Importance|Severity|Exception|DeviceName|ProcessID|ThreadID|ThreadName|ScopeTag|MajorTick|MinorTick|MajorDepth|MinorDepth|RootName|RootID|CallerName|CallerID|CalleeName|CalleeID|ActionID|DSRRootContextID|DSRTransaction|DSRConnection|DSRCounter|User|ArchitectComponent|DeveloperComponent|Administrator|Unit|CSNComponent|Text
 SEVERITY_MAP: |None| |Success|W|Warning|E|Error|A|Assertion
 HEADER_END
-|9CC54F09D07241D3B1B8A2666BD0397B0|2023 01 07 18:58:42.008|+0200|Error| |==|E| |BIlaunchpad|3914379|  66|http-nio-8080-exec-1| |1|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3914379:66.1:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3914379:66.1:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3914379:66.1:2|Cjt_m_aR00xygFrS6iOI0Ro1|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|9CC54F09D07241D3B1B8A2666BD0397B0|2023 01 07 18:58:42.008|+0200|Error| |==|E| |BIlaunchpad|3914379|  66|http-nio-8080-exec-1| |1|0|1|0|BIlaunchpad.WebApp|myserver.local:3914379:66.1:1|BIlaunchpad.WebApp|myserver.local:3914379:66.1:1|BIPSDK.SessionMgr:logon|myserver.local:3914379:66.1:2|Cjt_m_aR00xygFrS6iOI0Ro1|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -85,7 +85,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|9CC54F09D07241D3B1B8A2666BD0397B1|2023 01 07 19:00:05.526|+0200|Error| |==|E| |BIlaunchpad|3914379|  75|http-nio-8080-exec-10| |1|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3914379:75.38:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3914379:75.38:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3914379:75.38:2|Cjt_m_aR00xygFrS6iOI0Ro26|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|9CC54F09D07241D3B1B8A2666BD0397B1|2023 01 07 19:00:05.526|+0200|Error| |==|E| |BIlaunchpad|3914379|  75|http-nio-8080-exec-10| |1|0|1|0|BIlaunchpad.WebApp|myserver.local:3914379:75.38:1|BIlaunchpad.WebApp|myserver.local:3914379:75.38:1|BIPSDK.SessionMgr:logon|myserver.local:3914379:75.38:2|Cjt_m_aR00xygFrS6iOI0Ro26|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -164,7 +164,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|44D9B07A5C95434EA7D7FCBDCBE71CCD0|2023 01 07 19:14:29.692|+0200|Error| |==|E| |BIlaunchpad|3918150|  66|http-nio-8080-exec-4| |1|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3918150:66.1:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3918150:66.1:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3918150:66.1:2|CmJAAB4tyUmbvBsaYNaH8Yc1|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|44D9B07A5C95434EA7D7FCBDCBE71CCD0|2023 01 07 19:14:29.692|+0200|Error| |==|E| |BIlaunchpad|3918150|  66|http-nio-8080-exec-4| |1|0|1|0|BIlaunchpad.WebApp|myserver.local:3918150:66.1:1|BIlaunchpad.WebApp|myserver.local:3918150:66.1:1|BIPSDK.SessionMgr:logon|myserver.local:3918150:66.1:2|CmJAAB4tyUmbvBsaYNaH8Yc1|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -243,7 +243,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|3F48043C7B9A4A2D92DD32546A78C00B0|2023 01 08 06:26:46.825|+0200|Error| |==|E| |BIlaunchpad|4060020|  63|http-nio-8080-exec-1| |1|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:4060020:63.1:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:4060020:63.1:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:4060020:63.1:2|CpCpjCiEPk4bpaz699dnp881|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|3F48043C7B9A4A2D92DD32546A78C00B0|2023 01 08 06:26:46.825|+0200|Error| |==|E| |BIlaunchpad|4060020|  63|http-nio-8080-exec-1| |1|0|1|0|BIlaunchpad.WebApp|myserver.local:4060020:63.1:1|BIlaunchpad.WebApp|myserver.local:4060020:63.1:1|BIPSDK.SessionMgr:logon|myserver.local:4060020:63.1:2|CpCpjCiEPk4bpaz699dnp881|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -322,7 +322,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|5072B060C7E244289898564F8341B1E70|2023 01 08 06:39:57.180|+0200|Error| |==|E| |BIlaunchpad|4062581|  73|http-nio-8080-exec-7| |1|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:4062581:73.1:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:4062581:73.1:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:4062581:73.1:2|Cv4JMt9Kg0uksXA1oxz.APc1|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|5072B060C7E244289898564F8341B1E70|2023 01 08 06:39:57.180|+0200|Error| |==|E| |BIlaunchpad|4062581|  73|http-nio-8080-exec-7| |1|0|1|0|BIlaunchpad.WebApp|myserver.local:4062581:73.1:1|BIlaunchpad.WebApp|myserver.local:4062581:73.1:1|BIPSDK.SessionMgr:logon|myserver.local:4062581:73.1:2|Cv4JMt9Kg0uksXA1oxz.APc1|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -401,7 +401,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|FE923C0D29124DEC8A398B4D6D03BD380|2023 01 08 07:12:12.019|+0200|Error| |==|E| |BIlaunchpad|4066042| 169|http-nio-8080-exec-58| |1|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:4066042:169.9:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:4066042:169.9:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:4066042:169.9:2|Cjdhzf1D9knRlZzAIwIXMeg9|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|FE923C0D29124DEC8A398B4D6D03BD380|2023 01 08 07:12:12.019|+0200|Error| |==|E| |BIlaunchpad|4066042| 169|http-nio-8080-exec-58| |1|0|1|0|BIlaunchpad.WebApp|myserver.local:4066042:169.9:1|BIlaunchpad.WebApp|myserver.local:4066042:169.9:1|BIPSDK.SessionMgr:logon|myserver.local:4066042:169.9:2|Cjdhzf1D9knRlZzAIwIXMeg9|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -480,7 +480,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|1F59F9DE51554CADA9B32BB3F66F7E6E0|2023 01 08 07:42:53.189|+0200|Error| |==|E| |BIlaunchpad|4072663|  69|http-nio-8080-exec-7| |1|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:4072663:69.20:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:4072663:69.20:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:4072663:69.20:2|ChBs03yQiEUMvYO5fYVPRDY7|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|1F59F9DE51554CADA9B32BB3F66F7E6E0|2023 01 08 07:42:53.189|+0200|Error| |==|E| |BIlaunchpad|4072663|  69|http-nio-8080-exec-7| |1|0|1|0|BIlaunchpad.WebApp|myserver.local:4072663:69.20:1|BIlaunchpad.WebApp|myserver.local:4072663:69.20:1|BIPSDK.SessionMgr:logon|myserver.local:4072663:69.20:2|ChBs03yQiEUMvYO5fYVPRDY7|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -559,7 +559,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|4A5D98DD0B194933B764C5A73A88A22F0|2023 01 08 09:20:36.228|+0200|Error| |==|E| |BIlaunchpad|4085243|  71|http-nio-8080-exec-9| |1|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:4085243:71.38:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:4085243:71.38:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:4085243:71.38:2|CkGtTrBNJkwLisRkdL7Pj1Y6|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|4A5D98DD0B194933B764C5A73A88A22F0|2023 01 08 09:20:36.228|+0200|Error| |==|E| |BIlaunchpad|4085243|  71|http-nio-8080-exec-9| |1|0|1|0|BIlaunchpad.WebApp|myserver.local:4085243:71.38:1|BIlaunchpad.WebApp|myserver.local:4085243:71.38:1|BIPSDK.SessionMgr:logon|myserver.local:4085243:71.38:2|CkGtTrBNJkwLisRkdL7Pj1Y6|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -638,13 +638,13 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|140C0E07A382435680A7258D2FC6EB894|2023 01 08 16:27:39.236|+0200|Error| |==|E| |BIlaunchpad|4183841|  69|http-nio-8080-exec-6| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:4183841:69.493:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:4183841:69.493:1|CtFMeGa3B0oMkFBA1rZz3aw1df|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|476220CD3F614EC89E97122C1FA933660|2023 01 08 22:10:39.899|+0200|Error| |==|E| |BIlaunchpad|83562|  74|http-nio-8080-exec-9| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:83562:74.153:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:83562:74.153:1|Cgn4rj243UfSuFZRSnJucE894|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|476220CD3F614EC89E97122C1FA933661|2023 01 08 22:33:21.656|+0200|Error| |==|E| |BIlaunchpad|83562|  72|http-nio-8080-exec-7| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:83562:72.265:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:83562:72.265:1|Cgn4rj243UfSuFZRSnJucE8f9|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|476220CD3F614EC89E97122C1FA933663b|2023 01 11 11:22:29.271|+0200|Error| |==|E| |BIlaunchpad|83562|  69|http-nio-8080-exec-4| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:83562:69.5356:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:83562:69.5356:1|Cgn4rj243UfSuFZRSnJucE8dbf|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|476220CD3F614EC89E97122C1FA933664f|2023 01 12 08:07:31.924|+0200|Error| |==|E| |BIlaunchpad|83562|  73|http-nio-8080-exec-8| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:83562:73.7570:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:83562:73.7570:1|Cgn4rj243UfSuFZRSnJucE813f8|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|476220CD3F614EC89E97122C1FA9336655|2023 01 12 10:46:35.043|+0200|Error| |==|E| |BIlaunchpad|83562|  74|http-nio-8080-exec-9| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:83562:74.8140:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:83562:74.8140:1|Cgn4rj243UfSuFZRSnJucE815e3|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|476220CD3F614EC89E97122C1FA933665a|2023 01 13 03:56:01.804|+0200|Error| |==|E| |BIlaunchpad|83562|  75|http-nio-8080-exec-10| |1|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:83562:75.9685:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:83562:75.9685:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:83562:75.9685:2|Cgn4rj243UfSuFZRSnJucE819e9|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|140C0E07A382435680A7258D2FC6EB894|2023 01 08 16:27:39.236|+0200|Error| |==|E| |BIlaunchpad|4183841|  69|http-nio-8080-exec-6| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:4183841:69.493:1|-|-|BIlaunchpad.WebApp|myserver.local:4183841:69.493:1|CtFMeGa3B0oMkFBA1rZz3aw1df|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|476220CD3F614EC89E97122C1FA933660|2023 01 08 22:10:39.899|+0200|Error| |==|E| |BIlaunchpad|83562|  74|http-nio-8080-exec-9| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:83562:74.153:1|-|-|BIlaunchpad.WebApp|myserver.local:83562:74.153:1|Cgn4rj243UfSuFZRSnJucE894|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|476220CD3F614EC89E97122C1FA933661|2023 01 08 22:33:21.656|+0200|Error| |==|E| |BIlaunchpad|83562|  72|http-nio-8080-exec-7| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:83562:72.265:1|-|-|BIlaunchpad.WebApp|myserver.local:83562:72.265:1|Cgn4rj243UfSuFZRSnJucE8f9|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|476220CD3F614EC89E97122C1FA933663b|2023 01 11 11:22:29.271|+0200|Error| |==|E| |BIlaunchpad|83562|  69|http-nio-8080-exec-4| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:83562:69.5356:1|-|-|BIlaunchpad.WebApp|myserver.local:83562:69.5356:1|Cgn4rj243UfSuFZRSnJucE8dbf|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|476220CD3F614EC89E97122C1FA933664f|2023 01 12 08:07:31.924|+0200|Error| |==|E| |BIlaunchpad|83562|  73|http-nio-8080-exec-8| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:83562:73.7570:1|-|-|BIlaunchpad.WebApp|myserver.local:83562:73.7570:1|Cgn4rj243UfSuFZRSnJucE813f8|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|476220CD3F614EC89E97122C1FA9336655|2023 01 12 10:46:35.043|+0200|Error| |==|E| |BIlaunchpad|83562|  74|http-nio-8080-exec-9| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:83562:74.8140:1|-|-|BIlaunchpad.WebApp|myserver.local:83562:74.8140:1|Cgn4rj243UfSuFZRSnJucE815e3|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|476220CD3F614EC89E97122C1FA933665a|2023 01 13 03:56:01.804|+0200|Error| |==|E| |BIlaunchpad|83562|  75|http-nio-8080-exec-10| |1|0|1|0|BIlaunchpad.WebApp|myserver.local:83562:75.9685:1|BIlaunchpad.WebApp|myserver.local:83562:75.9685:1|BIPSDK.SessionMgr:logon|myserver.local:83562:75.9685:2|Cgn4rj243UfSuFZRSnJucE819e9|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -723,7 +723,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|CB5BFF0515A74A8AACE6067919446DC4b|2023 01 17 15:23:33.342|+0200|Error| |==|E| |BIlaunchpad|13981|  70|http-nio-8080-exec-7| |7|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:70.2505:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:70.2505:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:13981:70.2505:2|CpE8rxVKF0ghqil_ct7Errw78a|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|CB5BFF0515A74A8AACE6067919446DC4b|2023 01 17 15:23:33.342|+0200|Error| |==|E| |BIlaunchpad|13981|  70|http-nio-8080-exec-7| |7|0|1|0|BIlaunchpad.WebApp|myserver.local:13981:70.2505:1|BIlaunchpad.WebApp|myserver.local:13981:70.2505:1|BIPSDK.SessionMgr:logon|myserver.local:13981:70.2505:2|CpE8rxVKF0ghqil_ct7Errw78a|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -802,7 +802,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|CB5BFF0515A74A8AACE6067919446DC41d|2023 01 18 09:17:44.985|+0200|Error| |==|E| |BIlaunchpad|13981|  71|http-nio-8080-exec-8| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:71.3713:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:71.3713:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:13981:71.3713:2|CpE8rxVKF0ghqil_ct7Errwa2b|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|CB5BFF0515A74A8AACE6067919446DC41d|2023 01 18 09:17:44.985|+0200|Error| |==|E| |BIlaunchpad|13981|  71|http-nio-8080-exec-8| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:13981:71.3713:1|BIlaunchpad.WebApp|myserver.local:13981:71.3713:1|BIPSDK.SessionMgr:logon|myserver.local:13981:71.3713:2|CpE8rxVKF0ghqil_ct7Errwa2b|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -881,7 +881,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|CB5BFF0515A74A8AACE6067919446DC41e|2023 01 18 09:19:05.163|+0200|Error| |==|E| |BIlaunchpad|13981|  71|http-nio-8080-exec-8| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:71.3747:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:71.3747:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:13981:71.3747:2|CpE8rxVKF0ghqil_ct7Errwa4c|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|CB5BFF0515A74A8AACE6067919446DC41e|2023 01 18 09:19:05.163|+0200|Error| |==|E| |BIlaunchpad|13981|  71|http-nio-8080-exec-8| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:13981:71.3747:1|BIlaunchpad.WebApp|myserver.local:13981:71.3747:1|BIPSDK.SessionMgr:logon|myserver.local:13981:71.3747:2|CpE8rxVKF0ghqil_ct7Errwa4c|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -960,7 +960,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|CB5BFF0515A74A8AACE6067919446DC41f|2023 01 18 09:24:02.684|+0200|Error| |==|E| |BIlaunchpad|13981|  71|http-nio-8080-exec-8| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:71.3765:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:71.3765:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:13981:71.3765:2|CpE8rxVKF0ghqil_ct7Errwa5c|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|CB5BFF0515A74A8AACE6067919446DC41f|2023 01 18 09:24:02.684|+0200|Error| |==|E| |BIlaunchpad|13981|  71|http-nio-8080-exec-8| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:13981:71.3765:1|BIlaunchpad.WebApp|myserver.local:13981:71.3765:1|BIPSDK.SessionMgr:logon|myserver.local:13981:71.3765:2|CpE8rxVKF0ghqil_ct7Errwa5c|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -1039,7 +1039,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|CB5BFF0515A74A8AACE6067919446DC420|2023 01 18 10:00:08.931|+0200|Error| |==|E| |BIlaunchpad|13981|  70|http-nio-8080-exec-7| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:70.3794:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:70.3794:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:13981:70.3794:2|CpE8rxVKF0ghqil_ct7Errwa68|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|CB5BFF0515A74A8AACE6067919446DC420|2023 01 18 10:00:08.931|+0200|Error| |==|E| |BIlaunchpad|13981|  70|http-nio-8080-exec-7| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:13981:70.3794:1|BIlaunchpad.WebApp|myserver.local:13981:70.3794:1|BIPSDK.SessionMgr:logon|myserver.local:13981:70.3794:2|CpE8rxVKF0ghqil_ct7Errwa68|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -1118,7 +1118,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|CB5BFF0515A74A8AACE6067919446DC43a|2023 01 19 11:02:02.935|+0200|Error| |==|E| |BIlaunchpad|13981|  72|http-nio-8080-exec-9| |41|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:72.5744:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:72.5744:1|BIPSDK.InfoStore:query|srv010215.mud.internal.co.za:13981:72.5744:3|CpE8rxVKF0ghqil_ct7Errwf21|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=187600JnbSmip99vAXH9Ztx6slxGeEtypJAb6RG187599JJiU6YTt1VkQRNdfLUrlJidyFo5JrJk6P, errorCode=10496
+|CB5BFF0515A74A8AACE6067919446DC43a|2023 01 19 11:02:02.935|+0200|Error| |==|E| |BIlaunchpad|13981|  72|http-nio-8080-exec-9| |41|0|1|0|BIlaunchpad.WebApp|myserver.local:13981:72.5744:1|BIlaunchpad.WebApp|myserver.local:13981:72.5744:1|BIPSDK.InfoStore:query|myserver.local:13981:72.5744:3|CpE8rxVKF0ghqil_ct7Errwf21|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=187600JnbSmip99vAXH9Ztx6slxGeEtypJAb6RG187599JJiU6YTt1VkQRNdfLUrlJidyFo5JrJk6P, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -1195,7 +1195,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|CB5BFF0515A74A8AACE6067919446DC43b|2023 01 19 11:02:02.969|+0200|Error| |==|E| |BIlaunchpad|13981|  73|http-nio-8080-exec-10| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:73.5745:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:73.5745:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:13981:73.5745:2|CpE8rxVKF0ghqil_ct7Errwf22|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=187600JnbSmip99vAXH9Ztx6slxGeEtypJAb6RG187599JJiU6YTt1VkQRNdfLUrlJidyFo5JrJk6P, errorCode=10496
+|CB5BFF0515A74A8AACE6067919446DC43b|2023 01 19 11:02:02.969|+0200|Error| |==|E| |BIlaunchpad|13981|  73|http-nio-8080-exec-10| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:13981:73.5745:1|BIlaunchpad.WebApp|myserver.local:13981:73.5745:1|BIPSDK.EnterpriseSession:getService|myserver.local:13981:73.5745:2|CpE8rxVKF0ghqil_ct7Errwf22|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=187600JnbSmip99vAXH9Ztx6slxGeEtypJAb6RG187599JJiU6YTt1VkQRNdfLUrlJidyFo5JrJk6P, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -1279,7 +1279,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|CB5BFF0515A74A8AACE6067919446DC43d|2023 01 19 11:02:03.009|+0200|Error| |==|E| |BIlaunchpad|13981|  70|http-nio-8080-exec-7| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:70.5746:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:70.5746:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:13981:70.5746:2|CpE8rxVKF0ghqil_ct7Errwf23|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=187600JnbSmip99vAXH9Ztx6slxGeEtypJAb6RG187599JJiU6YTt1VkQRNdfLUrlJidyFo5JrJk6P, errorCode=10496
+|CB5BFF0515A74A8AACE6067919446DC43d|2023 01 19 11:02:03.009|+0200|Error| |==|E| |BIlaunchpad|13981|  70|http-nio-8080-exec-7| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:13981:70.5746:1|BIlaunchpad.WebApp|myserver.local:13981:70.5746:1|BIPSDK.EnterpriseSession:getService|myserver.local:13981:70.5746:2|CpE8rxVKF0ghqil_ct7Errwf23|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=187600JnbSmip99vAXH9Ztx6slxGeEtypJAb6RG187599JJiU6YTt1VkQRNdfLUrlJidyFo5JrJk6P, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -1363,7 +1363,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|CB5BFF0515A74A8AACE6067919446DC44d|2023 01 19 12:46:18.789|+0200|Error| |==|E| |BIlaunchpad|13981|  70|http-nio-8080-exec-7| |41|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:70.6100:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:70.6100:1|BIPSDK.InfoStore:query|srv010215.mud.internal.co.za:13981:70.6100:3|CpE8rxVKF0ghqil_ct7Errw1052|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=187663J8hgZVbrs3Be5n9qWrwbg6aIpJSEkwn4M187662Jb46u9d7d2xcOI9dEim7f9mNNXyQB5gWf, errorCode=10496
+|CB5BFF0515A74A8AACE6067919446DC44d|2023 01 19 12:46:18.789|+0200|Error| |==|E| |BIlaunchpad|13981|  70|http-nio-8080-exec-7| |41|0|1|0|BIlaunchpad.WebApp|myserver.local:13981:70.6100:1|BIlaunchpad.WebApp|myserver.local:13981:70.6100:1|BIPSDK.InfoStore:query|myserver.local:13981:70.6100:3|CpE8rxVKF0ghqil_ct7Errw1052|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=187663J8hgZVbrs3Be5n9qWrwbg6aIpJSEkwn4M187662Jb46u9d7d2xcOI9dEim7f9mNNXyQB5gWf, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -1440,7 +1440,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|CB5BFF0515A74A8AACE6067919446DC44e|2023 01 19 12:46:18.822|+0200|Error| |==|E| |BIlaunchpad|13981|  65|http-nio-8080-exec-2| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:65.6101:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:65.6101:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:13981:65.6101:2|CpE8rxVKF0ghqil_ct7Errw1053|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=187663J8hgZVbrs3Be5n9qWrwbg6aIpJSEkwn4M187662Jb46u9d7d2xcOI9dEim7f9mNNXyQB5gWf, errorCode=10496
+|CB5BFF0515A74A8AACE6067919446DC44e|2023 01 19 12:46:18.822|+0200|Error| |==|E| |BIlaunchpad|13981|  65|http-nio-8080-exec-2| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:13981:65.6101:1|BIlaunchpad.WebApp|myserver.local:13981:65.6101:1|BIPSDK.EnterpriseSession:getService|myserver.local:13981:65.6101:2|CpE8rxVKF0ghqil_ct7Errw1053|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=187663J8hgZVbrs3Be5n9qWrwbg6aIpJSEkwn4M187662Jb46u9d7d2xcOI9dEim7f9mNNXyQB5gWf, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -1524,7 +1524,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|CB5BFF0515A74A8AACE6067919446DC44f|2023 01 19 12:46:18.862|+0200|Error| |==|E| |BIlaunchpad|13981|  66|http-nio-8080-exec-3| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:66.6102:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:66.6102:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:13981:66.6102:2|CpE8rxVKF0ghqil_ct7Errw1054|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=187663J8hgZVbrs3Be5n9qWrwbg6aIpJSEkwn4M187662Jb46u9d7d2xcOI9dEim7f9mNNXyQB5gWf, errorCode=10496
+|CB5BFF0515A74A8AACE6067919446DC44f|2023 01 19 12:46:18.862|+0200|Error| |==|E| |BIlaunchpad|13981|  66|http-nio-8080-exec-3| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:13981:66.6102:1|BIlaunchpad.WebApp|myserver.local:13981:66.6102:1|BIPSDK.EnterpriseSession:getService|myserver.local:13981:66.6102:2|CpE8rxVKF0ghqil_ct7Errw1054|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=187663J8hgZVbrs3Be5n9qWrwbg6aIpJSEkwn4M187662Jb46u9d7d2xcOI9dEim7f9mNNXyQB5gWf, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -1608,17 +1608,17 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|CB5BFF0515A74A8AACE6067919446DC455|2023 01 19 15:16:09.143|+0200|Error| |==|E| |BIlaunchpad|13981|  66|http-nio-8080-exec-3| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:66.6501:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:66.6501:1|CpE8rxVKF0ghqil_ct7Errw119b|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|CB5BFF0515A74A8AACE6067919446DC471|2023 01 23 10:27:56.690|+0200|Error| |==|E| |BIlaunchpad|13981|  67|http-nio-8080-exec-4| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:67.11543:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:67.11543:1|CpE8rxVKF0ghqil_ct7Errw1aa6|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|CB5BFF0515A74A8AACE6067919446DC473|2023 01 23 10:35:17.035|+0200|Error| |==|E| |BIlaunchpad|13981|  67|http-nio-8080-exec-4| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:67.11769:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:67.11769:1|CpE8rxVKF0ghqil_ct7Errw1b84|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|CB5BFF0515A74A8AACE6067919446DC474|2023 01 23 10:54:05.347|+0200|Error| |==|E| |BIlaunchpad|13981|  67|http-nio-8080-exec-4| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:67.11810:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:67.11810:1|CpE8rxVKF0ghqil_ct7Errw1ba3|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|CB5BFF0515A74A8AACE6067919446DC497|2023 01 24 14:15:08.971|+0200|Error| |==|E| |BIlaunchpad|13981|  69|http-nio-8080-exec-6| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:69.15528:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:69.15528:1|CpE8rxVKF0ghqil_ct7Errw26f8|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|CB5BFF0515A74A8AACE6067919446DC4b9|2023 01 25 12:44:16.166|+0200|Error| |==|E| |BIlaunchpad|13981|  65|http-nio-8080-exec-2| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:65.18386:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:65.18386:1|CpE8rxVKF0ghqil_ct7Errw2f89|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|CB5BFF0515A74A8AACE6067919446DC4c2|2023 01 25 15:05:25.433|+0200|Error| |==|E| |BIlaunchpad|13981|  65|http-nio-8080-exec-2| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:65.19198:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:65.19198:1|CpE8rxVKF0ghqil_ct7Errw326e|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|CB5BFF0515A74A8AACE6067919446DC413b|2023 01 27 08:04:28.535|+0200|Error| |==|E| |BIlaunchpad|13981|  67|http-nio-8080-exec-4| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:67.28027:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:67.28027:1|CpE8rxVKF0ghqil_ct7Errw5019|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|CB5BFF0515A74A8AACE6067919446DC413d|2023 01 27 08:54:38.070|+0200|Error| |==|E| |BIlaunchpad|13981|  70|http-nio-8080-exec-7| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:70.28627:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:70.28627:1|CpE8rxVKF0ghqil_ct7Errw5258|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|CB5BFF0515A74A8AACE6067919446DC413e|2023 01 27 08:55:14.999|+0200|Error| |==|E| |BIlaunchpad|13981|  67|http-nio-8080-exec-4| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:67.28659:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:67.28659:1|CpE8rxVKF0ghqil_ct7Errw5277|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|CB5BFF0515A74A8AACE6067919446DC4187|2023 01 30 11:22:31.302|+0200|Error| |==|E| |BIlaunchpad|13981|  70|http-nio-8080-exec-7| |29|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:70.37780:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:70.37780:1|BIPSDK.InfoStore:query|srv010215.mud.internal.co.za:13981:70.37780:3|CpE8rxVKF0ghqil_ct7Errw6d5e|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=204213J5XXd97Y0odwNQHkS2DJX2JAgXzhYs9HD204212JWEOteTKZBrhuf5V5qVm8kCtiEoxjFcyy, errorCode=10496
+|CB5BFF0515A74A8AACE6067919446DC455|2023 01 19 15:16:09.143|+0200|Error| |==|E| |BIlaunchpad|13981|  66|http-nio-8080-exec-3| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:13981:66.6501:1|-|-|BIlaunchpad.WebApp|myserver.local:13981:66.6501:1|CpE8rxVKF0ghqil_ct7Errw119b|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|CB5BFF0515A74A8AACE6067919446DC471|2023 01 23 10:27:56.690|+0200|Error| |==|E| |BIlaunchpad|13981|  67|http-nio-8080-exec-4| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:13981:67.11543:1|-|-|BIlaunchpad.WebApp|myserver.local:13981:67.11543:1|CpE8rxVKF0ghqil_ct7Errw1aa6|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|CB5BFF0515A74A8AACE6067919446DC473|2023 01 23 10:35:17.035|+0200|Error| |==|E| |BIlaunchpad|13981|  67|http-nio-8080-exec-4| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:13981:67.11769:1|-|-|BIlaunchpad.WebApp|myserver.local:13981:67.11769:1|CpE8rxVKF0ghqil_ct7Errw1b84|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|CB5BFF0515A74A8AACE6067919446DC474|2023 01 23 10:54:05.347|+0200|Error| |==|E| |BIlaunchpad|13981|  67|http-nio-8080-exec-4| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:13981:67.11810:1|-|-|BIlaunchpad.WebApp|myserver.local:13981:67.11810:1|CpE8rxVKF0ghqil_ct7Errw1ba3|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|CB5BFF0515A74A8AACE6067919446DC497|2023 01 24 14:15:08.971|+0200|Error| |==|E| |BIlaunchpad|13981|  69|http-nio-8080-exec-6| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:13981:69.15528:1|-|-|BIlaunchpad.WebApp|myserver.local:13981:69.15528:1|CpE8rxVKF0ghqil_ct7Errw26f8|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|CB5BFF0515A74A8AACE6067919446DC4b9|2023 01 25 12:44:16.166|+0200|Error| |==|E| |BIlaunchpad|13981|  65|http-nio-8080-exec-2| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:13981:65.18386:1|-|-|BIlaunchpad.WebApp|myserver.local:13981:65.18386:1|CpE8rxVKF0ghqil_ct7Errw2f89|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|CB5BFF0515A74A8AACE6067919446DC4c2|2023 01 25 15:05:25.433|+0200|Error| |==|E| |BIlaunchpad|13981|  65|http-nio-8080-exec-2| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:13981:65.19198:1|-|-|BIlaunchpad.WebApp|myserver.local:13981:65.19198:1|CpE8rxVKF0ghqil_ct7Errw326e|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|CB5BFF0515A74A8AACE6067919446DC413b|2023 01 27 08:04:28.535|+0200|Error| |==|E| |BIlaunchpad|13981|  67|http-nio-8080-exec-4| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:13981:67.28027:1|-|-|BIlaunchpad.WebApp|myserver.local:13981:67.28027:1|CpE8rxVKF0ghqil_ct7Errw5019|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|CB5BFF0515A74A8AACE6067919446DC413d|2023 01 27 08:54:38.070|+0200|Error| |==|E| |BIlaunchpad|13981|  70|http-nio-8080-exec-7| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:13981:70.28627:1|-|-|BIlaunchpad.WebApp|myserver.local:13981:70.28627:1|CpE8rxVKF0ghqil_ct7Errw5258|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|CB5BFF0515A74A8AACE6067919446DC413e|2023 01 27 08:55:14.999|+0200|Error| |==|E| |BIlaunchpad|13981|  67|http-nio-8080-exec-4| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:13981:67.28659:1|-|-|BIlaunchpad.WebApp|myserver.local:13981:67.28659:1|CpE8rxVKF0ghqil_ct7Errw5277|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|CB5BFF0515A74A8AACE6067919446DC4187|2023 01 30 11:22:31.302|+0200|Error| |==|E| |BIlaunchpad|13981|  70|http-nio-8080-exec-7| |29|0|1|0|BIlaunchpad.WebApp|myserver.local:13981:70.37780:1|BIlaunchpad.WebApp|myserver.local:13981:70.37780:1|BIPSDK.InfoStore:query|myserver.local:13981:70.37780:3|CpE8rxVKF0ghqil_ct7Errw6d5e|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=204213J5XXd97Y0odwNQHkS2DJX2JAgXzhYs9HD204212JWEOteTKZBrhuf5V5qVm8kCtiEoxjFcyy, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -1698,9 +1698,9 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|CB5BFF0515A74A8AACE6067919446DC41f8|2023 01 31 16:04:47.279|+0200|Error| |==|E| |BIlaunchpad|13981|32193|http-nio-8080-exec-12| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:32193.44318:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:32193.44318:1|CpE8rxVKF0ghqil_ct7Errw8393|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|CB5BFF0515A74A8AACE6067919446DC4374|2023 02 02 07:47:59.899|+0200| |Fatal|  | | |BIlaunchpad|13981|93455|http-nio-8080-exec-35| |7|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:93455.53609:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:13981:93455.53609:1|BIPSDK.InfoStore:query|srv010215.mud.internal.co.za:13981:93455.53609:3|CpE8rxVKF0ghqil_ct7Errwa33a|||||||||com.crystaldecisions.enterprise.ocaframework.ManagedService||invoke(): the service is dead 
-com.crystaldecisions.enterprise.ocaframework.OCAFrameworkException$AllServicesDown: Unable to find servers in CMS srv010214.mud.internal.co.za:6400 and cluster @sapbo-dev with kind cms and service null. All such servers could be down or disabled by the administrator. (FWM 01014)
+|CB5BFF0515A74A8AACE6067919446DC41f8|2023 01 31 16:04:47.279|+0200|Error| |==|E| |BIlaunchpad|13981|32193|http-nio-8080-exec-12| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:13981:32193.44318:1|-|-|BIlaunchpad.WebApp|myserver.local:13981:32193.44318:1|CpE8rxVKF0ghqil_ct7Errw8393|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|CB5BFF0515A74A8AACE6067919446DC4374|2023 02 02 07:47:59.899|+0200| |Fatal|  | | |BIlaunchpad|13981|93455|http-nio-8080-exec-35| |7|0|1|0|BIlaunchpad.WebApp|myserver.local:13981:93455.53609:1|BIlaunchpad.WebApp|myserver.local:13981:93455.53609:1|BIPSDK.InfoStore:query|myserver.local:13981:93455.53609:3|CpE8rxVKF0ghqil_ct7Errwa33a|||||||||com.crystaldecisions.enterprise.ocaframework.ManagedService||invoke(): the service is dead 
+com.crystaldecisions.enterprise.ocaframework.OCAFrameworkException$AllServicesDown: Unable to find servers in CMS myserver.local:6400 and cluster @sapbo-dev with kind cms and service null. All such servers could be down or disabled by the administrator. (FWM 01014)
 	at com.crystaldecisions.enterprise.ocaframework.ServerController.validateServer(ServerController.java:425)
 	at com.crystaldecisions.enterprise.ocaframework.ServiceMgr.validateServer(ServiceMgr.java:1006)
 	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validate(ManagedSession.java:532)
@@ -1772,28 +1772,28 @@ com.crystaldecisions.enterprise.ocaframework.OCAFrameworkException$AllServicesDo
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|4BB7F5E39000431198D4CFE13E6425A42|2023 02 02 08:04:32.065|+0200|Error| |==|E| |BIlaunchpad|988773|  73|http-nio-8080-exec-10| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:73.76:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:73.76:1|CtkU6VUkgkZrgvDX20IB0_048|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A43|2023 02 02 08:07:28.764|+0200|Error| |==|E| |BIlaunchpad|988773|  65|http-nio-8080-exec-2| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:65.103:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:65.103:1|CtkU6VUkgkZrgvDX20IB0_061|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A44|2023 02 02 08:07:32.132|+0200|Error| |==|E| |BIlaunchpad|988773|  70|http-nio-8080-exec-7| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:70.107:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:70.107:1|CtkU6VUkgkZrgvDX20IB0_065|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A45|2023 02 02 08:08:31.471|+0200|Error| |==|E| |BIlaunchpad|988773|  72|http-nio-8080-exec-9| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:72.121:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:72.121:1|CtkU6VUkgkZrgvDX20IB0_073|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A46|2023 02 02 08:11:17.439|+0200|Error| |==|E| |BIlaunchpad|988773|  68|http-nio-8080-exec-5| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:68.169:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:68.169:1|CtkU6VUkgkZrgvDX20IB0_0a1|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A47|2023 02 02 08:11:49.752|+0200|Error| |==|E| |BIlaunchpad|988773|  67|http-nio-8080-exec-4| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:67.204:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:67.204:1|CtkU6VUkgkZrgvDX20IB0_0c4|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A49|2023 02 02 08:15:58.295|+0200|Error| |==|E| |BIlaunchpad|988773|  67|http-nio-8080-exec-4| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:67.237:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:67.237:1|CtkU6VUkgkZrgvDX20IB0_0e3|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A4b|2023 02 02 08:29:29.079|+0200|Error| |==|E| |BIlaunchpad|988773|  90|http-nio-8080-exec-13| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:90.283:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:90.283:1|CtkU6VUkgkZrgvDX20IB0_010a|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A4c|2023 02 02 08:30:00.935|+0200|Error| |==|E| |BIlaunchpad|988773|  96|http-nio-8080-exec-19| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:96.296:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:96.296:1|CtkU6VUkgkZrgvDX20IB0_0117|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A414|2023 02 02 10:13:16.817|+0200|Error| |==|E| |BIlaunchpad|988773| 106|http-nio-8080-exec-26| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:106.660:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:106.660:1|CtkU6VUkgkZrgvDX20IB0_024f|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A415|2023 02 02 10:18:26.060|+0200|Error| |==|E| |BIlaunchpad|988773| 108|http-nio-8080-exec-28| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:108.706:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:108.706:1|CtkU6VUkgkZrgvDX20IB0_027c|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A416|2023 02 02 10:31:34.087|+0200|Error| |==|E| |BIlaunchpad|988773| 106|http-nio-8080-exec-26| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:106.744:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:106.744:1|CtkU6VUkgkZrgvDX20IB0_029b|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A41a|2023 02 02 12:05:40.896|+0200|Error| |==|E| |BIlaunchpad|988773| 111|http-nio-8080-exec-31| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:111.1040:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:111.1040:1|CtkU6VUkgkZrgvDX20IB0_0394|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A41d|2023 02 02 12:45:41.227|+0200|Error| |==|E| |BIlaunchpad|988773| 112|http-nio-8080-exec-32| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:112.1197:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:112.1197:1|CtkU6VUkgkZrgvDX20IB0_041e|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A42e|2023 02 02 14:11:08.747|+0200|Error| |==|E| |BIlaunchpad|988773| 112|http-nio-8080-exec-32| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:112.1822:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:112.1822:1|CtkU6VUkgkZrgvDX20IB0_0666|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A435|2023 02 03 09:29:04.022|+0200|Error| |==|E| |BIlaunchpad|988773| 109|http-nio-8080-exec-29| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:109.2929:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:109.2929:1|CtkU6VUkgkZrgvDX20IB0_087a|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A480|2023 02 10 10:15:02.130|+0200|Error| |==|E| |BIlaunchpad|988773| 112|http-nio-8080-exec-32| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:112.15390:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:112.15390:1|CtkU6VUkgkZrgvDX20IB0_02576|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A4ab|2023 02 13 10:47:10.856|+0200|Error| |==|E| |BIlaunchpad|988773| 108|http-nio-8080-exec-28| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:108.19757:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:108.19757:1|CtkU6VUkgkZrgvDX20IB0_02e07|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|4BB7F5E39000431198D4CFE13E6425A4af|2023 02 13 11:35:04.540|+0200|Error| |==|E| |BIlaunchpad|988773| 105|http-nio-8080-exec-25| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:105.20190:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:988773:105.20190:1|CtkU6VUkgkZrgvDX20IB0_02fa0|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|49AC329434D64DB8A653DE7962FFFAFCd|2023 02 14 11:36:40.436|+0200|Error| |==|E| |BIlaunchpad|224690| 102|http-nio-8080-exec-25| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:102.218:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:102.218:1|Cgeaqv8.Q0Dwv5TKu8pYU3Ed2|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|49AC329434D64DB8A653DE7962FFFAFC1c|2023 02 16 08:22:47.778|+0200|Error| |==|E| |BIlaunchpad|224690| 128|http-nio-8080-exec-30| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:128.3979:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:128.3979:1|Cgeaqv8.Q0Dwv5TKu8pYU3Ea49|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|49AC329434D64DB8A653DE7962FFFAFC54|2023 02 17 13:40:00.372|+0200|Error| |==|E| |BIlaunchpad|224690| 126|http-nio-8080-exec-28| |22|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:126.7656:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:126.7656:1|Cgeaqv8.Q0Dwv5TKu8pYU3E1538|||||||||com.businessobjects.multidimensional.services.client.corba.MdsCorbaSession||Failed to get connections for connection [CDH_BID_HANA2_OLAP_SSO] using session locale [English (United States)].
+|4BB7F5E39000431198D4CFE13E6425A42|2023 02 02 08:04:32.065|+0200|Error| |==|E| |BIlaunchpad|988773|  73|http-nio-8080-exec-10| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:73.76:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:73.76:1|CtkU6VUkgkZrgvDX20IB0_048|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A43|2023 02 02 08:07:28.764|+0200|Error| |==|E| |BIlaunchpad|988773|  65|http-nio-8080-exec-2| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:65.103:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:65.103:1|CtkU6VUkgkZrgvDX20IB0_061|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A44|2023 02 02 08:07:32.132|+0200|Error| |==|E| |BIlaunchpad|988773|  70|http-nio-8080-exec-7| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:70.107:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:70.107:1|CtkU6VUkgkZrgvDX20IB0_065|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A45|2023 02 02 08:08:31.471|+0200|Error| |==|E| |BIlaunchpad|988773|  72|http-nio-8080-exec-9| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:72.121:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:72.121:1|CtkU6VUkgkZrgvDX20IB0_073|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A46|2023 02 02 08:11:17.439|+0200|Error| |==|E| |BIlaunchpad|988773|  68|http-nio-8080-exec-5| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:68.169:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:68.169:1|CtkU6VUkgkZrgvDX20IB0_0a1|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A47|2023 02 02 08:11:49.752|+0200|Error| |==|E| |BIlaunchpad|988773|  67|http-nio-8080-exec-4| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:67.204:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:67.204:1|CtkU6VUkgkZrgvDX20IB0_0c4|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A49|2023 02 02 08:15:58.295|+0200|Error| |==|E| |BIlaunchpad|988773|  67|http-nio-8080-exec-4| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:67.237:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:67.237:1|CtkU6VUkgkZrgvDX20IB0_0e3|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A4b|2023 02 02 08:29:29.079|+0200|Error| |==|E| |BIlaunchpad|988773|  90|http-nio-8080-exec-13| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:90.283:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:90.283:1|CtkU6VUkgkZrgvDX20IB0_010a|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A4c|2023 02 02 08:30:00.935|+0200|Error| |==|E| |BIlaunchpad|988773|  96|http-nio-8080-exec-19| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:96.296:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:96.296:1|CtkU6VUkgkZrgvDX20IB0_0117|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A414|2023 02 02 10:13:16.817|+0200|Error| |==|E| |BIlaunchpad|988773| 106|http-nio-8080-exec-26| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:106.660:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:106.660:1|CtkU6VUkgkZrgvDX20IB0_024f|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A415|2023 02 02 10:18:26.060|+0200|Error| |==|E| |BIlaunchpad|988773| 108|http-nio-8080-exec-28| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:108.706:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:108.706:1|CtkU6VUkgkZrgvDX20IB0_027c|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A416|2023 02 02 10:31:34.087|+0200|Error| |==|E| |BIlaunchpad|988773| 106|http-nio-8080-exec-26| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:106.744:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:106.744:1|CtkU6VUkgkZrgvDX20IB0_029b|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A41a|2023 02 02 12:05:40.896|+0200|Error| |==|E| |BIlaunchpad|988773| 111|http-nio-8080-exec-31| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:111.1040:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:111.1040:1|CtkU6VUkgkZrgvDX20IB0_0394|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A41d|2023 02 02 12:45:41.227|+0200|Error| |==|E| |BIlaunchpad|988773| 112|http-nio-8080-exec-32| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:112.1197:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:112.1197:1|CtkU6VUkgkZrgvDX20IB0_041e|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A42e|2023 02 02 14:11:08.747|+0200|Error| |==|E| |BIlaunchpad|988773| 112|http-nio-8080-exec-32| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:112.1822:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:112.1822:1|CtkU6VUkgkZrgvDX20IB0_0666|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A435|2023 02 03 09:29:04.022|+0200|Error| |==|E| |BIlaunchpad|988773| 109|http-nio-8080-exec-29| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:109.2929:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:109.2929:1|CtkU6VUkgkZrgvDX20IB0_087a|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A480|2023 02 10 10:15:02.130|+0200|Error| |==|E| |BIlaunchpad|988773| 112|http-nio-8080-exec-32| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:112.15390:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:112.15390:1|CtkU6VUkgkZrgvDX20IB0_02576|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A4ab|2023 02 13 10:47:10.856|+0200|Error| |==|E| |BIlaunchpad|988773| 108|http-nio-8080-exec-28| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:108.19757:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:108.19757:1|CtkU6VUkgkZrgvDX20IB0_02e07|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|4BB7F5E39000431198D4CFE13E6425A4af|2023 02 13 11:35:04.540|+0200|Error| |==|E| |BIlaunchpad|988773| 105|http-nio-8080-exec-25| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:988773:105.20190:1|-|-|BIlaunchpad.WebApp|myserver.local:988773:105.20190:1|CtkU6VUkgkZrgvDX20IB0_02fa0|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|49AC329434D64DB8A653DE7962FFFAFCd|2023 02 14 11:36:40.436|+0200|Error| |==|E| |BIlaunchpad|224690| 102|http-nio-8080-exec-25| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:224690:102.218:1|-|-|BIlaunchpad.WebApp|myserver.local:224690:102.218:1|Cgeaqv8.Q0Dwv5TKu8pYU3Ed2|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|49AC329434D64DB8A653DE7962FFFAFC1c|2023 02 16 08:22:47.778|+0200|Error| |==|E| |BIlaunchpad|224690| 128|http-nio-8080-exec-30| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:224690:128.3979:1|-|-|BIlaunchpad.WebApp|myserver.local:224690:128.3979:1|Cgeaqv8.Q0Dwv5TKu8pYU3Ea49|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|49AC329434D64DB8A653DE7962FFFAFC54|2023 02 17 13:40:00.372|+0200|Error| |==|E| |BIlaunchpad|224690| 126|http-nio-8080-exec-28| |22|0|0|0|BIlaunchpad.WebApp|myserver.local:224690:126.7656:1|-|-|BIlaunchpad.WebApp|myserver.local:224690:126.7656:1|Cgeaqv8.Q0Dwv5TKu8pYU3E1538|||||||||com.businessobjects.multidimensional.services.client.corba.MdsCorbaSession||Failed to get connections for connection [CDH_BID_HANA2_OLAP_SSO] using session locale [English (United States)].
 com.businessobjects.multidimensional.services.transport.corba.MdasTransportException: IDL:com/businessobjects/multidimensional/services/transport/corba/MdasTransportException:1.0
 	at com.businessobjects.multidimensional.services.transport.corba.MdasTransportExceptionHelper.read(MdasTransportExceptionHelper.java:71)
 	at com.businessobjects.multidimensional.services.transport.corba._SessionStub.getConnectionDescriptors(_SessionStub.java:273)
@@ -1909,7 +1909,7 @@ com.businessobjects.multidimensional.services.transport.corba.MdasTransportExcep
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|49AC329434D64DB8A653DE7962FFFAFC55|2023 02 17 13:40:00.373|+0200|Error| |==|E| |BIlaunchpad|224690| 126|http-nio-8080-exec-28| |22|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:126.7656:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:126.7656:1|Cgeaqv8.Q0Dwv5TKu8pYU3E1538|||||||||com.businessobjects.multidimensional.client.application.jsf.dialog.opendatasource.datasource.DataSourceChooserModel||Failed to get connections for connection [CDH_BID_HANA2_OLAP_SSO] using session locale [English (United States)].
+|49AC329434D64DB8A653DE7962FFFAFC55|2023 02 17 13:40:00.373|+0200|Error| |==|E| |BIlaunchpad|224690| 126|http-nio-8080-exec-28| |22|0|0|0|BIlaunchpad.WebApp|myserver.local:224690:126.7656:1|-|-|BIlaunchpad.WebApp|myserver.local:224690:126.7656:1|Cgeaqv8.Q0Dwv5TKu8pYU3E1538|||||||||com.businessobjects.multidimensional.client.application.jsf.dialog.opendatasource.datasource.DataSourceChooserModel||Failed to get connections for connection [CDH_BID_HANA2_OLAP_SSO] using session locale [English (United States)].
 com.businessobjects.multidimensional.services.ConnectionException: Failed to get connections for connection [CDH_BID_HANA2_OLAP_SSO] using session locale [English (United States)].
 	at com.businessobjects.multidimensional.services.service.core.connection.ConnectionDescriptorFactory.getConnectionDescriptors(ConnectionDescriptorFactory.java:175)
 	at com.businessobjects.multidimensional.services.model.session.Session.getConnectionDescriptors(Session.java:679)
@@ -1936,7 +1936,7 @@ com.businessobjects.multidimensional.services.ConnectionException: Failed to get
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:836)
 
-|49AC329434D64DB8A653DE7962FFFAFC56|2023 02 17 13:40:14.410|+0200|Error| |==|E| |BIlaunchpad|224690| 128|http-nio-8080-exec-30| |12|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:128.7668:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:128.7668:1|Cgeaqv8.Q0Dwv5TKu8pYU3E1544|||||||||com.businessobjects.multidimensional.services.client.corba.MdsCorbaSession||Failed to search connections for connection [CDH_BID_HANA2_OLAP_SSO] using session locale [English (United States)].
+|49AC329434D64DB8A653DE7962FFFAFC56|2023 02 17 13:40:14.410|+0200|Error| |==|E| |BIlaunchpad|224690| 128|http-nio-8080-exec-30| |12|0|0|0|BIlaunchpad.WebApp|myserver.local:224690:128.7668:1|-|-|BIlaunchpad.WebApp|myserver.local:224690:128.7668:1|Cgeaqv8.Q0Dwv5TKu8pYU3E1544|||||||||com.businessobjects.multidimensional.services.client.corba.MdsCorbaSession||Failed to search connections for connection [CDH_BID_HANA2_OLAP_SSO] using session locale [English (United States)].
 com.businessobjects.multidimensional.services.transport.corba.MdasTransportException: IDL:com/businessobjects/multidimensional/services/transport/corba/MdasTransportException:1.0
 	at com.businessobjects.multidimensional.services.transport.corba.MdasTransportExceptionHelper.read(MdasTransportExceptionHelper.java:71)
 	at com.businessobjects.multidimensional.services.transport.corba._SessionStub.searchConnections(_SessionStub.java:359)
@@ -2036,7 +2036,7 @@ com.businessobjects.multidimensional.services.transport.corba.MdasTransportExcep
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|49AC329434D64DB8A653DE7962FFFAFC57|2023 02 17 13:40:14.411|+0200|Error| |==|E| |BIlaunchpad|224690| 128|http-nio-8080-exec-30| |12|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:128.7668:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:128.7668:1|Cgeaqv8.Q0Dwv5TKu8pYU3E1544|||||||||com.businessobjects.multidimensional.client.application.jsf.dialog.opendatasource.datasource.DataSourceChooserModel||Failed to search connections for connection [CDH_BID_HANA2_OLAP_SSO] using session locale [English (United States)].
+|49AC329434D64DB8A653DE7962FFFAFC57|2023 02 17 13:40:14.411|+0200|Error| |==|E| |BIlaunchpad|224690| 128|http-nio-8080-exec-30| |12|0|0|0|BIlaunchpad.WebApp|myserver.local:224690:128.7668:1|-|-|BIlaunchpad.WebApp|myserver.local:224690:128.7668:1|Cgeaqv8.Q0Dwv5TKu8pYU3E1544|||||||||com.businessobjects.multidimensional.client.application.jsf.dialog.opendatasource.datasource.DataSourceChooserModel||Failed to search connections for connection [CDH_BID_HANA2_OLAP_SSO] using session locale [English (United States)].
 com.businessobjects.multidimensional.services.ConnectionException: Failed to search connections for connection [CDH_BID_HANA2_OLAP_SSO] using session locale [English (United States)].
 	at com.businessobjects.multidimensional.services.service.core.connection.ConnectionDescriptorFactory.searchConnections(ConnectionDescriptorFactory.java:230)
 	at com.businessobjects.multidimensional.services.model.session.Session.searchConnections(Session.java:798)
@@ -2063,7 +2063,7 @@ com.businessobjects.multidimensional.services.ConnectionException: Failed to sea
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:836)
 
-|49AC329434D64DB8A653DE7962FFFAFC59|2023 02 17 13:41:00.150|+0200|Error| |==|E| |BIlaunchpad|224690| 128|http-nio-8080-exec-30| |10|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:128.7680:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:128.7680:1|Cgeaqv8.Q0Dwv5TKu8pYU3E154f|||||||||com.businessobjects.multidimensional.services.client.corba.MdsCorbaSession||Failed to get connections for connection [CDH_BID_PROMPT] using session locale [English (United States)].
+|49AC329434D64DB8A653DE7962FFFAFC59|2023 02 17 13:41:00.150|+0200|Error| |==|E| |BIlaunchpad|224690| 128|http-nio-8080-exec-30| |10|0|0|0|BIlaunchpad.WebApp|myserver.local:224690:128.7680:1|-|-|BIlaunchpad.WebApp|myserver.local:224690:128.7680:1|Cgeaqv8.Q0Dwv5TKu8pYU3E154f|||||||||com.businessobjects.multidimensional.services.client.corba.MdsCorbaSession||Failed to get connections for connection [CDH_BID_PROMPT] using session locale [English (United States)].
 com.businessobjects.multidimensional.services.transport.corba.MdasTransportException: IDL:com/businessobjects/multidimensional/services/transport/corba/MdasTransportException:1.0
 	at com.businessobjects.multidimensional.services.transport.corba.MdasTransportExceptionHelper.read(MdasTransportExceptionHelper.java:71)
 	at com.businessobjects.multidimensional.services.transport.corba._SessionStub.getConnectionDescriptors(_SessionStub.java:273)
@@ -2179,7 +2179,7 @@ com.businessobjects.multidimensional.services.transport.corba.MdasTransportExcep
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|49AC329434D64DB8A653DE7962FFFAFC5a|2023 02 17 13:41:00.151|+0200|Error| |==|E| |BIlaunchpad|224690| 128|http-nio-8080-exec-30| |10|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:128.7680:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:128.7680:1|Cgeaqv8.Q0Dwv5TKu8pYU3E154f|||||||||com.businessobjects.multidimensional.client.application.jsf.dialog.opendatasource.datasource.DataSourceChooserModel||Failed to get connections for connection [CDH_BID_PROMPT] using session locale [English (United States)].
+|49AC329434D64DB8A653DE7962FFFAFC5a|2023 02 17 13:41:00.151|+0200|Error| |==|E| |BIlaunchpad|224690| 128|http-nio-8080-exec-30| |10|0|0|0|BIlaunchpad.WebApp|myserver.local:224690:128.7680:1|-|-|BIlaunchpad.WebApp|myserver.local:224690:128.7680:1|Cgeaqv8.Q0Dwv5TKu8pYU3E154f|||||||||com.businessobjects.multidimensional.client.application.jsf.dialog.opendatasource.datasource.DataSourceChooserModel||Failed to get connections for connection [CDH_BID_PROMPT] using session locale [English (United States)].
 com.businessobjects.multidimensional.services.ConnectionException: Failed to get connections for connection [CDH_BID_PROMPT] using session locale [English (United States)].
 	at com.businessobjects.multidimensional.services.service.core.connection.ConnectionDescriptorFactory.getConnectionDescriptors(ConnectionDescriptorFactory.java:175)
 	at com.businessobjects.multidimensional.services.model.session.Session.getConnectionDescriptors(Session.java:707)
@@ -2206,7 +2206,7 @@ com.businessobjects.multidimensional.services.ConnectionException: Failed to get
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:836)
 
-|49AC329434D64DB8A653DE7962FFFAFC5b|2023 02 17 13:41:07.629|+0200|Error| |==|E| |BIlaunchpad|224690| 126|http-nio-8080-exec-28| |10|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:126.7683:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:126.7683:1|Cgeaqv8.Q0Dwv5TKu8pYU3E1552|||||||||com.businessobjects.multidimensional.services.client.corba.MdsCorbaSession||Failed to search connections for connection [CDH_BID_PROMPT] using session locale [English (United States)].
+|49AC329434D64DB8A653DE7962FFFAFC5b|2023 02 17 13:41:07.629|+0200|Error| |==|E| |BIlaunchpad|224690| 126|http-nio-8080-exec-28| |10|0|0|0|BIlaunchpad.WebApp|myserver.local:224690:126.7683:1|-|-|BIlaunchpad.WebApp|myserver.local:224690:126.7683:1|Cgeaqv8.Q0Dwv5TKu8pYU3E1552|||||||||com.businessobjects.multidimensional.services.client.corba.MdsCorbaSession||Failed to search connections for connection [CDH_BID_PROMPT] using session locale [English (United States)].
 com.businessobjects.multidimensional.services.transport.corba.MdasTransportException: IDL:com/businessobjects/multidimensional/services/transport/corba/MdasTransportException:1.0
 	at com.businessobjects.multidimensional.services.transport.corba.MdasTransportExceptionHelper.read(MdasTransportExceptionHelper.java:71)
 	at com.businessobjects.multidimensional.services.transport.corba._SessionStub.searchConnections(_SessionStub.java:359)
@@ -2306,7 +2306,7 @@ com.businessobjects.multidimensional.services.transport.corba.MdasTransportExcep
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|49AC329434D64DB8A653DE7962FFFAFC5c|2023 02 17 13:41:07.629|+0200|Error| |==|E| |BIlaunchpad|224690| 126|http-nio-8080-exec-28| |10|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:126.7683:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:126.7683:1|Cgeaqv8.Q0Dwv5TKu8pYU3E1552|||||||||com.businessobjects.multidimensional.client.application.jsf.dialog.opendatasource.datasource.DataSourceChooserModel||Failed to search connections for connection [CDH_BID_PROMPT] using session locale [English (United States)].
+|49AC329434D64DB8A653DE7962FFFAFC5c|2023 02 17 13:41:07.629|+0200|Error| |==|E| |BIlaunchpad|224690| 126|http-nio-8080-exec-28| |10|0|0|0|BIlaunchpad.WebApp|myserver.local:224690:126.7683:1|-|-|BIlaunchpad.WebApp|myserver.local:224690:126.7683:1|Cgeaqv8.Q0Dwv5TKu8pYU3E1552|||||||||com.businessobjects.multidimensional.client.application.jsf.dialog.opendatasource.datasource.DataSourceChooserModel||Failed to search connections for connection [CDH_BID_PROMPT] using session locale [English (United States)].
 com.businessobjects.multidimensional.services.ConnectionException: Failed to search connections for connection [CDH_BID_PROMPT] using session locale [English (United States)].
 	at com.businessobjects.multidimensional.services.service.core.connection.ConnectionDescriptorFactory.searchConnections(ConnectionDescriptorFactory.java:230)
 	at com.businessobjects.multidimensional.services.model.session.Session.searchConnections(Session.java:826)
@@ -2333,11 +2333,11 @@ com.businessobjects.multidimensional.services.ConnectionException: Failed to sea
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:836)
 
-|49AC329434D64DB8A653DE7962FFFAFC6f|2023 02 21 12:25:04.792|+0200|Error| |==|E| |BIlaunchpad|224690| 128|http-nio-8080-exec-30| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:128.13722:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:128.13722:1|Cgeaqv8.Q0Dwv5TKu8pYU3E21d5|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|49AC329434D64DB8A653DE7962FFFAFC70|2023 02 21 12:25:39.884|+0200|Error| |==|E| |BIlaunchpad|224690|  98|http-nio-8080-exec-21| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:98.13736:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:98.13736:1|Cgeaqv8.Q0Dwv5TKu8pYU3E21e2|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|49AC329434D64DB8A653DE7962FFFAFC71|2023 02 21 12:25:58.536|+0200|Error| |==|E| |BIlaunchpad|224690|  99|http-nio-8080-exec-22| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:99.13749:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:99.13749:1|Cgeaqv8.Q0Dwv5TKu8pYU3E21ef|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|49AC329434D64DB8A653DE7962FFFAFC72|2023 02 21 12:34:32.591|+0200|Error| |==|E| |BIlaunchpad|224690|  98|http-nio-8080-exec-21| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:98.13906:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:98.13906:1|Cgeaqv8.Q0Dwv5TKu8pYU3E2288|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|49AC329434D64DB8A653DE7962FFFAFC95|2023 02 23 13:52:05.502|+0200|Error| |==|E| |BIlaunchpad|224690| 128|http-nio-8080-exec-30| |25|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:128.19251:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:128.19251:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:224690:128.19251:2|Cgeaqv8.Q0Dwv5TKu8pYU3E31ab|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=258685JIGkGX6FgzOv92SwGy6MT9Sp2u99LFx5S258684JFv2bfCgF4MIgAx7yIgyXHcqiyezN594r, errorCode=10496
+|49AC329434D64DB8A653DE7962FFFAFC6f|2023 02 21 12:25:04.792|+0200|Error| |==|E| |BIlaunchpad|224690| 128|http-nio-8080-exec-30| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:224690:128.13722:1|-|-|BIlaunchpad.WebApp|myserver.local:224690:128.13722:1|Cgeaqv8.Q0Dwv5TKu8pYU3E21d5|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|49AC329434D64DB8A653DE7962FFFAFC70|2023 02 21 12:25:39.884|+0200|Error| |==|E| |BIlaunchpad|224690|  98|http-nio-8080-exec-21| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:224690:98.13736:1|-|-|BIlaunchpad.WebApp|myserver.local:224690:98.13736:1|Cgeaqv8.Q0Dwv5TKu8pYU3E21e2|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|49AC329434D64DB8A653DE7962FFFAFC71|2023 02 21 12:25:58.536|+0200|Error| |==|E| |BIlaunchpad|224690|  99|http-nio-8080-exec-22| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:224690:99.13749:1|-|-|BIlaunchpad.WebApp|myserver.local:224690:99.13749:1|Cgeaqv8.Q0Dwv5TKu8pYU3E21ef|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|49AC329434D64DB8A653DE7962FFFAFC72|2023 02 21 12:34:32.591|+0200|Error| |==|E| |BIlaunchpad|224690|  98|http-nio-8080-exec-21| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:224690:98.13906:1|-|-|BIlaunchpad.WebApp|myserver.local:224690:98.13906:1|Cgeaqv8.Q0Dwv5TKu8pYU3E2288|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|49AC329434D64DB8A653DE7962FFFAFC95|2023 02 23 13:52:05.502|+0200|Error| |==|E| |BIlaunchpad|224690| 128|http-nio-8080-exec-30| |25|0|1|0|BIlaunchpad.WebApp|myserver.local:224690:128.19251:1|BIlaunchpad.WebApp|myserver.local:224690:128.19251:1|BIPSDK.EnterpriseSession:getService|myserver.local:224690:128.19251:2|Cgeaqv8.Q0Dwv5TKu8pYU3E31ab|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=258685JIGkGX6FgzOv92SwGy6MT9Sp2u99LFx5S258684JFv2bfCgF4MIgAx7yIgyXHcqiyezN594r, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -2421,7 +2421,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|49AC329434D64DB8A653DE7962FFFAFC96|2023 02 23 13:52:06.770|+0200|Error| |==|E| |BIlaunchpad|224690| 127|http-nio-8080-exec-29| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:127.19252:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:127.19252:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:224690:127.19252:2|Cgeaqv8.Q0Dwv5TKu8pYU3E31ac|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=258685JIGkGX6FgzOv92SwGy6MT9Sp2u99LFx5S258684JFv2bfCgF4MIgAx7yIgyXHcqiyezN594r, errorCode=10496
+|49AC329434D64DB8A653DE7962FFFAFC96|2023 02 23 13:52:06.770|+0200|Error| |==|E| |BIlaunchpad|224690| 127|http-nio-8080-exec-29| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:224690:127.19252:1|BIlaunchpad.WebApp|myserver.local:224690:127.19252:1|BIPSDK.EnterpriseSession:getService|myserver.local:224690:127.19252:2|Cgeaqv8.Q0Dwv5TKu8pYU3E31ac|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=258685JIGkGX6FgzOv92SwGy6MT9Sp2u99LFx5S258684JFv2bfCgF4MIgAx7yIgyXHcqiyezN594r, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -2502,7 +2502,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|49AC329434D64DB8A653DE7962FFFAFC97|2023 02 23 13:52:50.439|+0200|Error| |==|E| |BIlaunchpad|224690|  98|http-nio-8080-exec-21| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:98.19295:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:224690:98.19295:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:224690:98.19295:2|Cgeaqv8.Q0Dwv5TKu8pYU3E31d7|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=258685JIGkGX6FgzOv92SwGy6MT9Sp2u99LFx5S258684JFv2bfCgF4MIgAx7yIgyXHcqiyezN594r, errorCode=10496
+|49AC329434D64DB8A653DE7962FFFAFC97|2023 02 23 13:52:50.439|+0200|Error| |==|E| |BIlaunchpad|224690|  98|http-nio-8080-exec-21| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:224690:98.19295:1|BIlaunchpad.WebApp|myserver.local:224690:98.19295:1|BIPSDK.EnterpriseSession:getService|myserver.local:224690:98.19295:2|Cgeaqv8.Q0Dwv5TKu8pYU3E31d7|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=258685JIGkGX6FgzOv92SwGy6MT9Sp2u99LFx5S258684JFv2bfCgF4MIgAx7yIgyXHcqiyezN594r, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -2583,7 +2583,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA190619728|2023 02 24 15:14:27.545|+0200|Error| |==|E| |BIlaunchpad|3360597| 164|http-nio-8080-exec-66| |33|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:164.2000:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:164.2000:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:164.2000:2|CgYxsh9bmUJminuJvzvmyKw783|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=263413JgX6ZUh2wXyETJvN12jPzk9eD0M6qxLpZ263412JwWOH4sTWIABwreHx4iqYIzEE0h1PGKAA, errorCode=10496
+|77AA32971146464C9BA5550EA190619728|2023 02 24 15:14:27.545|+0200|Error| |==|E| |BIlaunchpad|3360597| 164|http-nio-8080-exec-66| |33|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:164.2000:1|BIlaunchpad.WebApp|myserver.local:3360597:164.2000:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:164.2000:2|CgYxsh9bmUJminuJvzvmyKw783|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=263413JgX6ZUh2wXyETJvN12jPzk9eD0M6qxLpZ263412JwWOH4sTWIABwreHx4iqYIzEE0h1PGKAA, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -2664,7 +2664,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA19061972a|2023 02 24 15:14:27.582|+0200|Error| |==|E| |BIlaunchpad|3360597| 160|http-nio-8080-exec-62| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:160.2001:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:160.2001:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:160.2001:2|CgYxsh9bmUJminuJvzvmyKw784|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=263413JgX6ZUh2wXyETJvN12jPzk9eD0M6qxLpZ263412JwWOH4sTWIABwreHx4iqYIzEE0h1PGKAA, errorCode=10496
+|77AA32971146464C9BA5550EA19061972a|2023 02 24 15:14:27.582|+0200|Error| |==|E| |BIlaunchpad|3360597| 160|http-nio-8080-exec-62| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:160.2001:1|BIlaunchpad.WebApp|myserver.local:3360597:160.2001:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:160.2001:2|CgYxsh9bmUJminuJvzvmyKw784|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=263413JgX6ZUh2wXyETJvN12jPzk9eD0M6qxLpZ263412JwWOH4sTWIABwreHx4iqYIzEE0h1PGKAA, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -2748,7 +2748,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA19061972b|2023 02 24 15:14:27.622|+0200|Error| |==|E| |BIlaunchpad|3360597| 161|http-nio-8080-exec-63| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:161.2003:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:161.2003:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:161.2003:2|CgYxsh9bmUJminuJvzvmyKw786|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=263413JgX6ZUh2wXyETJvN12jPzk9eD0M6qxLpZ263412JwWOH4sTWIABwreHx4iqYIzEE0h1PGKAA, errorCode=10496
+|77AA32971146464C9BA5550EA19061972b|2023 02 24 15:14:27.622|+0200|Error| |==|E| |BIlaunchpad|3360597| 161|http-nio-8080-exec-63| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:161.2003:1|BIlaunchpad.WebApp|myserver.local:3360597:161.2003:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:161.2003:2|CgYxsh9bmUJminuJvzvmyKw786|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=263413JgX6ZUh2wXyETJvN12jPzk9eD0M6qxLpZ263412JwWOH4sTWIABwreHx4iqYIzEE0h1PGKAA, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -2832,9 +2832,9 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA190619740|2023 03 01 09:51:50.126|+0200|Error| |==|E| |BIlaunchpad|3360597| 173|http-nio-8080-exec-75| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:173.10165:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:173.10165:1|CgYxsh9bmUJminuJvzvmyKw1a09|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|77AA32971146464C9BA5550EA190619742|2023 03 01 09:56:27.693|+0200|Error| |==|E| |BIlaunchpad|3360597| 156|http-nio-8080-exec-58| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:156.10313:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:156.10313:1|CgYxsh9bmUJminuJvzvmyKw1a9a|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|77AA32971146464C9BA5550EA190619747|2023 03 01 15:49:27.409|+0200|Error| |==|E| |BIlaunchpad|3360597| 157|http-nio-8080-exec-59| |31|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:157.11392:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:157.11392:1|BIPSDK.InfoStore:query|srv010215.mud.internal.co.za:3360597:157.11392:3|CgYxsh9bmUJminuJvzvmyKw1e20|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=268056J78c0QtGyHZ8yLhThu1Jg5CrQyWoqI8bp268055JWDnvAX7dP6QDLk0O720m82jpHGEU9JN3, errorCode=10496
+|77AA32971146464C9BA5550EA190619740|2023 03 01 09:51:50.126|+0200|Error| |==|E| |BIlaunchpad|3360597| 173|http-nio-8080-exec-75| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:3360597:173.10165:1|-|-|BIlaunchpad.WebApp|myserver.local:3360597:173.10165:1|CgYxsh9bmUJminuJvzvmyKw1a09|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|77AA32971146464C9BA5550EA190619742|2023 03 01 09:56:27.693|+0200|Error| |==|E| |BIlaunchpad|3360597| 156|http-nio-8080-exec-58| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:3360597:156.10313:1|-|-|BIlaunchpad.WebApp|myserver.local:3360597:156.10313:1|CgYxsh9bmUJminuJvzvmyKw1a9a|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|77AA32971146464C9BA5550EA190619747|2023 03 01 15:49:27.409|+0200|Error| |==|E| |BIlaunchpad|3360597| 157|http-nio-8080-exec-59| |31|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:157.11392:1|BIlaunchpad.WebApp|myserver.local:3360597:157.11392:1|BIPSDK.InfoStore:query|myserver.local:3360597:157.11392:3|CgYxsh9bmUJminuJvzvmyKw1e20|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=268056J78c0QtGyHZ8yLhThu1Jg5CrQyWoqI8bp268055JWDnvAX7dP6QDLk0O720m82jpHGEU9JN3, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -2911,7 +2911,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA190619749|2023 03 01 15:49:27.446|+0200|Error| |==|E| |BIlaunchpad|3360597| 172|http-nio-8080-exec-74| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:172.11393:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:172.11393:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:172.11393:2|CgYxsh9bmUJminuJvzvmyKw1e21|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=268056J78c0QtGyHZ8yLhThu1Jg5CrQyWoqI8bp268055JWDnvAX7dP6QDLk0O720m82jpHGEU9JN3, errorCode=10496
+|77AA32971146464C9BA5550EA190619749|2023 03 01 15:49:27.446|+0200|Error| |==|E| |BIlaunchpad|3360597| 172|http-nio-8080-exec-74| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:172.11393:1|BIlaunchpad.WebApp|myserver.local:3360597:172.11393:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:172.11393:2|CgYxsh9bmUJminuJvzvmyKw1e21|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=268056J78c0QtGyHZ8yLhThu1Jg5CrQyWoqI8bp268055JWDnvAX7dP6QDLk0O720m82jpHGEU9JN3, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -2995,7 +2995,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA19061974a|2023 03 01 15:49:27.487|+0200|Error| |==|E| |BIlaunchpad|3360597| 161|http-nio-8080-exec-63| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:161.11394:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:161.11394:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:161.11394:2|CgYxsh9bmUJminuJvzvmyKw1e22|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=268056J78c0QtGyHZ8yLhThu1Jg5CrQyWoqI8bp268055JWDnvAX7dP6QDLk0O720m82jpHGEU9JN3, errorCode=10496
+|77AA32971146464C9BA5550EA19061974a|2023 03 01 15:49:27.487|+0200|Error| |==|E| |BIlaunchpad|3360597| 161|http-nio-8080-exec-63| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:161.11394:1|BIlaunchpad.WebApp|myserver.local:3360597:161.11394:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:161.11394:2|CgYxsh9bmUJminuJvzvmyKw1e22|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=268056J78c0QtGyHZ8yLhThu1Jg5CrQyWoqI8bp268055JWDnvAX7dP6QDLk0O720m82jpHGEU9JN3, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -3079,7 +3079,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA19061977f|2023 03 08 11:41:17.982|+0200|Error| |==|E| |BIlaunchpad|3360597| 166|http-nio-8080-exec-68| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:166.23721:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:166.23721:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:166.23721:2|CgYxsh9bmUJminuJvzvmyKw3b25|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA19061977f|2023 03 08 11:41:17.982|+0200|Error| |==|E| |BIlaunchpad|3360597| 166|http-nio-8080-exec-68| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:166.23721:1|BIlaunchpad.WebApp|myserver.local:3360597:166.23721:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:166.23721:2|CgYxsh9bmUJminuJvzvmyKw3b25|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -3158,7 +3158,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA19061978e|2023 03 08 12:01:30.953|+0200|Error| |==|E| |BIlaunchpad|3360597| 171|http-nio-8080-exec-73| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:171.23885:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:171.23885:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:171.23885:2|CgYxsh9bmUJminuJvzvmyKw3bbf|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA19061978e|2023 03 08 12:01:30.953|+0200|Error| |==|E| |BIlaunchpad|3360597| 171|http-nio-8080-exec-73| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:171.23885:1|BIlaunchpad.WebApp|myserver.local:3360597:171.23885:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:171.23885:2|CgYxsh9bmUJminuJvzvmyKw3bbf|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -3237,8 +3237,8 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA19061978f|2023 03 08 12:04:00.776|+0200|Error| |==|E| |BIlaunchpad|3360597| 176|http-nio-8080-exec-78| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:176.24022:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:176.24022:1|CgYxsh9bmUJminuJvzvmyKw3c48|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|77AA32971146464C9BA5550EA190619793|2023 03 08 13:01:09.963|+0200|Error| |==|E| |BIlaunchpad|3360597| 168|http-nio-8080-exec-70| |25|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:168.24292:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:168.24292:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:168.24292:2|CgYxsh9bmUJminuJvzvmyKw3d3a|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=274823JXYP9DD9vXO5YK8x2bypN99rnOi7ZduaN274822Jd6ioGTvcj3kilsG62657e76TvbUD1Oh6, errorCode=10496
+|77AA32971146464C9BA5550EA19061978f|2023 03 08 12:04:00.776|+0200|Error| |==|E| |BIlaunchpad|3360597| 176|http-nio-8080-exec-78| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:3360597:176.24022:1|-|-|BIlaunchpad.WebApp|myserver.local:3360597:176.24022:1|CgYxsh9bmUJminuJvzvmyKw3c48|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|77AA32971146464C9BA5550EA190619793|2023 03 08 13:01:09.963|+0200|Error| |==|E| |BIlaunchpad|3360597| 168|http-nio-8080-exec-70| |25|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:168.24292:1|BIlaunchpad.WebApp|myserver.local:3360597:168.24292:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:168.24292:2|CgYxsh9bmUJminuJvzvmyKw3d3a|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=274823JXYP9DD9vXO5YK8x2bypN99rnOi7ZduaN274822Jd6ioGTvcj3kilsG62657e76TvbUD1Oh6, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -3322,7 +3322,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA190619794|2023 03 08 13:01:10.000|+0200|Error| |==|E| |BIlaunchpad|3360597| 154|http-nio-8080-exec-56| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:154.24293:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:154.24293:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:154.24293:2|CgYxsh9bmUJminuJvzvmyKw3d3b|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=274823JXYP9DD9vXO5YK8x2bypN99rnOi7ZduaN274822Jd6ioGTvcj3kilsG62657e76TvbUD1Oh6, errorCode=10496
+|77AA32971146464C9BA5550EA190619794|2023 03 08 13:01:10.000|+0200|Error| |==|E| |BIlaunchpad|3360597| 154|http-nio-8080-exec-56| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:154.24293:1|BIlaunchpad.WebApp|myserver.local:3360597:154.24293:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:154.24293:2|CgYxsh9bmUJminuJvzvmyKw3d3b|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=274823JXYP9DD9vXO5YK8x2bypN99rnOi7ZduaN274822Jd6ioGTvcj3kilsG62657e76TvbUD1Oh6, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -3403,7 +3403,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA190619795|2023 03 08 13:01:10.031|+0200|Error| |==|E| |BIlaunchpad|3360597| 167|http-nio-8080-exec-69| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:167.24295:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:167.24295:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:167.24295:2|CgYxsh9bmUJminuJvzvmyKw3d3d|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=274823JXYP9DD9vXO5YK8x2bypN99rnOi7ZduaN274822Jd6ioGTvcj3kilsG62657e76TvbUD1Oh6, errorCode=10496
+|77AA32971146464C9BA5550EA190619795|2023 03 08 13:01:10.031|+0200|Error| |==|E| |BIlaunchpad|3360597| 167|http-nio-8080-exec-69| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:167.24295:1|BIlaunchpad.WebApp|myserver.local:3360597:167.24295:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:167.24295:2|CgYxsh9bmUJminuJvzvmyKw3d3d|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=274823JXYP9DD9vXO5YK8x2bypN99rnOi7ZduaN274822Jd6ioGTvcj3kilsG62657e76TvbUD1Oh6, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -3487,7 +3487,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA190619799|2023 03 08 14:15:59.603|+0200|Error| |==|E| |BIlaunchpad|3360597| 167|http-nio-8080-exec-69| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:167.24431:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:167.24431:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:167.24431:2|CgYxsh9bmUJminuJvzvmyKw3da0|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA190619799|2023 03 08 14:15:59.603|+0200|Error| |==|E| |BIlaunchpad|3360597| 167|http-nio-8080-exec-69| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:167.24431:1|BIlaunchpad.WebApp|myserver.local:3360597:167.24431:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:167.24431:2|CgYxsh9bmUJminuJvzvmyKw3da0|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -3566,7 +3566,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA19061979a|2023 03 08 14:16:37.532|+0200|Error| |==|E| |BIlaunchpad|3360597| 172|http-nio-8080-exec-74| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:172.24475:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:172.24475:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:172.24475:2|CgYxsh9bmUJminuJvzvmyKw3dcc|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA19061979a|2023 03 08 14:16:37.532|+0200|Error| |==|E| |BIlaunchpad|3360597| 172|http-nio-8080-exec-74| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:172.24475:1|BIlaunchpad.WebApp|myserver.local:3360597:172.24475:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:172.24475:2|CgYxsh9bmUJminuJvzvmyKw3dcc|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -3645,7 +3645,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197a8|2023 03 08 14:17:05.545|+0200|Error| |==|E| |BIlaunchpad|3360597| 162|http-nio-8080-exec-64| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:162.24513:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:162.24513:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:162.24513:2|CgYxsh9bmUJminuJvzvmyKw3df2|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197a8|2023 03 08 14:17:05.545|+0200|Error| |==|E| |BIlaunchpad|3360597| 162|http-nio-8080-exec-64| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:162.24513:1|BIlaunchpad.WebApp|myserver.local:3360597:162.24513:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:162.24513:2|CgYxsh9bmUJminuJvzvmyKw3df2|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -3724,7 +3724,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197a9|2023 03 08 14:17:12.923|+0200|Error| |==|E| |BIlaunchpad|3360597| 172|http-nio-8080-exec-74| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:172.24516:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:172.24516:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:172.24516:2|CgYxsh9bmUJminuJvzvmyKw3df5|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197a9|2023 03 08 14:17:12.923|+0200|Error| |==|E| |BIlaunchpad|3360597| 172|http-nio-8080-exec-74| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:172.24516:1|BIlaunchpad.WebApp|myserver.local:3360597:172.24516:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:172.24516:2|CgYxsh9bmUJminuJvzvmyKw3df5|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -3803,7 +3803,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197aa|2023 03 08 14:17:28.388|+0200|Error| |==|E| |BIlaunchpad|3360597| 153|http-nio-8080-exec-55| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:153.24522:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:153.24522:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:153.24522:2|CgYxsh9bmUJminuJvzvmyKw3dfa|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197aa|2023 03 08 14:17:28.388|+0200|Error| |==|E| |BIlaunchpad|3360597| 153|http-nio-8080-exec-55| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:153.24522:1|BIlaunchpad.WebApp|myserver.local:3360597:153.24522:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:153.24522:2|CgYxsh9bmUJminuJvzvmyKw3dfa|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -3882,7 +3882,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197ab|2023 03 08 14:25:49.994|+0200|Error| |==|E| |BIlaunchpad|3360597| 157|http-nio-8080-exec-59| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:157.24815:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:157.24815:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:157.24815:2|CgYxsh9bmUJminuJvzvmyKw3f1c|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197ab|2023 03 08 14:25:49.994|+0200|Error| |==|E| |BIlaunchpad|3360597| 157|http-nio-8080-exec-59| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:157.24815:1|BIlaunchpad.WebApp|myserver.local:3360597:157.24815:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:157.24815:2|CgYxsh9bmUJminuJvzvmyKw3f1c|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -3961,7 +3961,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197ac|2023 03 08 14:29:29.556|+0200|Error| |==|E| |BIlaunchpad|3360597| 172|http-nio-8080-exec-74| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:172.24838:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:172.24838:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:172.24838:2|CgYxsh9bmUJminuJvzvmyKw3f31|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197ac|2023 03 08 14:29:29.556|+0200|Error| |==|E| |BIlaunchpad|3360597| 172|http-nio-8080-exec-74| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:172.24838:1|BIlaunchpad.WebApp|myserver.local:3360597:172.24838:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:172.24838:2|CgYxsh9bmUJminuJvzvmyKw3f31|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -4040,7 +4040,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197ad|2023 03 08 14:29:39.092|+0200|Error| |==|E| |BIlaunchpad|3360597| 165|http-nio-8080-exec-67| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:165.24848:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:165.24848:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:165.24848:2|CgYxsh9bmUJminuJvzvmyKw3f3b|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197ad|2023 03 08 14:29:39.092|+0200|Error| |==|E| |BIlaunchpad|3360597| 165|http-nio-8080-exec-67| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:165.24848:1|BIlaunchpad.WebApp|myserver.local:3360597:165.24848:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:165.24848:2|CgYxsh9bmUJminuJvzvmyKw3f3b|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -4119,7 +4119,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197b4|2023 03 08 15:13:51.903|+0200|Error| |==|E| |BIlaunchpad|3360597| 162|http-nio-8080-exec-64| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:162.25352:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:162.25352:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:162.25352:2|CgYxsh9bmUJminuJvzvmyKw411d|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197b4|2023 03 08 15:13:51.903|+0200|Error| |==|E| |BIlaunchpad|3360597| 162|http-nio-8080-exec-64| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:162.25352:1|BIlaunchpad.WebApp|myserver.local:3360597:162.25352:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:162.25352:2|CgYxsh9bmUJminuJvzvmyKw411d|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -4198,7 +4198,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197b5|2023 03 08 15:14:43.316|+0200|Error| |==|E| |BIlaunchpad|3360597| 176|http-nio-8080-exec-78| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:176.25355:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:176.25355:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:176.25355:2|CgYxsh9bmUJminuJvzvmyKw4120|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197b5|2023 03 08 15:14:43.316|+0200|Error| |==|E| |BIlaunchpad|3360597| 176|http-nio-8080-exec-78| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:176.25355:1|BIlaunchpad.WebApp|myserver.local:3360597:176.25355:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:176.25355:2|CgYxsh9bmUJminuJvzvmyKw4120|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -4277,7 +4277,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197b6|2023 03 08 15:14:50.296|+0200|Error| |==|E| |BIlaunchpad|3360597| 162|http-nio-8080-exec-64| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:162.25357:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:162.25357:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:162.25357:2|CgYxsh9bmUJminuJvzvmyKw4122|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197b6|2023 03 08 15:14:50.296|+0200|Error| |==|E| |BIlaunchpad|3360597| 162|http-nio-8080-exec-64| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:162.25357:1|BIlaunchpad.WebApp|myserver.local:3360597:162.25357:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:162.25357:2|CgYxsh9bmUJminuJvzvmyKw4122|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -4356,7 +4356,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197b7|2023 03 08 15:14:56.484|+0200|Error| |==|E| |BIlaunchpad|3360597| 171|http-nio-8080-exec-73| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:171.25359:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:171.25359:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:171.25359:2|CgYxsh9bmUJminuJvzvmyKw4124|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197b7|2023 03 08 15:14:56.484|+0200|Error| |==|E| |BIlaunchpad|3360597| 171|http-nio-8080-exec-73| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:171.25359:1|BIlaunchpad.WebApp|myserver.local:3360597:171.25359:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:171.25359:2|CgYxsh9bmUJminuJvzvmyKw4124|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -4435,7 +4435,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197b8|2023 03 08 15:15:10.829|+0200|Error| |==|E| |BIlaunchpad|3360597| 169|http-nio-8080-exec-71| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:169.25361:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:169.25361:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:169.25361:2|CgYxsh9bmUJminuJvzvmyKw4126|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197b8|2023 03 08 15:15:10.829|+0200|Error| |==|E| |BIlaunchpad|3360597| 169|http-nio-8080-exec-71| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:169.25361:1|BIlaunchpad.WebApp|myserver.local:3360597:169.25361:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:169.25361:2|CgYxsh9bmUJminuJvzvmyKw4126|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -4514,7 +4514,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197b9|2023 03 08 15:30:16.986|+0200|Error| |==|E| |BIlaunchpad|3360597| 167|http-nio-8080-exec-69| |19|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:167.25400:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:167.25400:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:167.25400:2|CgYxsh9bmUJminuJvzvmyKw4145|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197b9|2023 03 08 15:30:16.986|+0200|Error| |==|E| |BIlaunchpad|3360597| 167|http-nio-8080-exec-69| |19|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:167.25400:1|BIlaunchpad.WebApp|myserver.local:3360597:167.25400:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:167.25400:2|CgYxsh9bmUJminuJvzvmyKw4145|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -4593,7 +4593,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197c0|2023 03 09 09:18:58.261|+0200|Error| |==|E| |BIlaunchpad|3360597| 156|http-nio-8080-exec-58| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:156.27263:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:156.27263:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:156.27263:2|CgYxsh9bmUJminuJvzvmyKw4676|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197c0|2023 03 09 09:18:58.261|+0200|Error| |==|E| |BIlaunchpad|3360597| 156|http-nio-8080-exec-58| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:156.27263:1|BIlaunchpad.WebApp|myserver.local:3360597:156.27263:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:156.27263:2|CgYxsh9bmUJminuJvzvmyKw4676|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -4672,7 +4672,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197ce|2023 03 09 09:31:41.978|+0200|Error| |==|E| |BIlaunchpad|3360597| 165|http-nio-8080-exec-67| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:165.27584:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:165.27584:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:165.27584:2|CgYxsh9bmUJminuJvzvmyKw47b1|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197ce|2023 03 09 09:31:41.978|+0200|Error| |==|E| |BIlaunchpad|3360597| 165|http-nio-8080-exec-67| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:165.27584:1|BIlaunchpad.WebApp|myserver.local:3360597:165.27584:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:165.27584:2|CgYxsh9bmUJminuJvzvmyKw47b1|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -4751,7 +4751,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197cf|2023 03 09 09:35:54.303|+0200|Error| |==|E| |BIlaunchpad|3360597| 156|http-nio-8080-exec-58| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:156.27589:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:156.27589:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:156.27589:2|CgYxsh9bmUJminuJvzvmyKw47b4|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197cf|2023 03 09 09:35:54.303|+0200|Error| |==|E| |BIlaunchpad|3360597| 156|http-nio-8080-exec-58| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:156.27589:1|BIlaunchpad.WebApp|myserver.local:3360597:156.27589:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:156.27589:2|CgYxsh9bmUJminuJvzvmyKw47b4|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -4830,7 +4830,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197d0|2023 03 09 09:44:08.819|+0200|Error| |==|E| |BIlaunchpad|3360597| 158|http-nio-8080-exec-60| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:158.27599:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:158.27599:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:158.27599:2|CgYxsh9bmUJminuJvzvmyKw47ba|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197d0|2023 03 09 09:44:08.819|+0200|Error| |==|E| |BIlaunchpad|3360597| 158|http-nio-8080-exec-60| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:158.27599:1|BIlaunchpad.WebApp|myserver.local:3360597:158.27599:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:158.27599:2|CgYxsh9bmUJminuJvzvmyKw47ba|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -4909,7 +4909,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197d1|2023 03 09 09:46:55.132|+0200|Error| |==|E| |BIlaunchpad|3360597| 172|http-nio-8080-exec-74| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:172.27606:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:172.27606:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:172.27606:2|CgYxsh9bmUJminuJvzvmyKw47bf|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197d1|2023 03 09 09:46:55.132|+0200|Error| |==|E| |BIlaunchpad|3360597| 172|http-nio-8080-exec-74| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:172.27606:1|BIlaunchpad.WebApp|myserver.local:3360597:172.27606:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:172.27606:2|CgYxsh9bmUJminuJvzvmyKw47bf|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -4988,7 +4988,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197e8|2023 03 10 10:25:02.249|+0200|Error| |==|E| |BIlaunchpad|3360597| 175|http-nio-8080-exec-77| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:175.29808:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:175.29808:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:175.29808:2|CgYxsh9bmUJminuJvzvmyKw4d80|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197e8|2023 03 10 10:25:02.249|+0200|Error| |==|E| |BIlaunchpad|3360597| 175|http-nio-8080-exec-77| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:175.29808:1|BIlaunchpad.WebApp|myserver.local:3360597:175.29808:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:175.29808:2|CgYxsh9bmUJminuJvzvmyKw4d80|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -5067,7 +5067,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197ed|2023 03 10 14:26:04.788|+0200|Error| |==|E| |BIlaunchpad|3360597| 160|http-nio-8080-exec-62| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:160.30643:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:160.30643:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:160.30643:2|CgYxsh9bmUJminuJvzvmyKw504a|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197ed|2023 03 10 14:26:04.788|+0200|Error| |==|E| |BIlaunchpad|3360597| 160|http-nio-8080-exec-62| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:160.30643:1|BIlaunchpad.WebApp|myserver.local:3360597:160.30643:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:160.30643:2|CgYxsh9bmUJminuJvzvmyKw504a|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -5146,7 +5146,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197fc|2023 03 10 15:06:05.003|+0200|Error| |==|E| |BIlaunchpad|3360597| 168|http-nio-8080-exec-70| |29|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:168.31330:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:168.31330:1|BIPSDK.InfoStore:query|srv010215.mud.internal.co.za:3360597:168.31330:3|CgYxsh9bmUJminuJvzvmyKw52e5|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
+|77AA32971146464C9BA5550EA1906197fc|2023 03 10 15:06:05.003|+0200|Error| |==|E| |BIlaunchpad|3360597| 168|http-nio-8080-exec-70| |29|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:168.31330:1|BIlaunchpad.WebApp|myserver.local:3360597:168.31330:1|BIPSDK.InfoStore:query|myserver.local:3360597:168.31330:3|CgYxsh9bmUJminuJvzvmyKw52e5|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -5223,7 +5223,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197fd|2023 03 10 15:06:49.739|+0200|Error| |==|E| |BIlaunchpad|3360597| 162|http-nio-8080-exec-64| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:162.31349:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:162.31349:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:162.31349:2|CgYxsh9bmUJminuJvzvmyKw52f8|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
+|77AA32971146464C9BA5550EA1906197fd|2023 03 10 15:06:49.739|+0200|Error| |==|E| |BIlaunchpad|3360597| 162|http-nio-8080-exec-64| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:162.31349:1|BIlaunchpad.WebApp|myserver.local:3360597:162.31349:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:162.31349:2|CgYxsh9bmUJminuJvzvmyKw52f8|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -5304,8 +5304,8 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA190619710c|2023 03 10 15:09:58.387|+0200|Error| |==|E| |BIlaunchpad|3360597| 166|http-nio-8080-exec-68| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:166.31531:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:166.31531:1|CgYxsh9bmUJminuJvzvmyKw53ad|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|77AA32971146464C9BA5550EA190619710d|2023 03 10 15:11:21.311|+0200|Error| |==|E| |BIlaunchpad|3360597| 171|http-nio-8080-exec-73| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:171.31566:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:171.31566:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:171.31566:2|CgYxsh9bmUJminuJvzvmyKw53cf|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
+|77AA32971146464C9BA5550EA190619710c|2023 03 10 15:09:58.387|+0200|Error| |==|E| |BIlaunchpad|3360597| 166|http-nio-8080-exec-68| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:3360597:166.31531:1|-|-|BIlaunchpad.WebApp|myserver.local:3360597:166.31531:1|CgYxsh9bmUJminuJvzvmyKw53ad|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|77AA32971146464C9BA5550EA190619710d|2023 03 10 15:11:21.311|+0200|Error| |==|E| |BIlaunchpad|3360597| 171|http-nio-8080-exec-73| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:171.31566:1|BIlaunchpad.WebApp|myserver.local:3360597:171.31566:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:171.31566:2|CgYxsh9bmUJminuJvzvmyKw53cf|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -5386,7 +5386,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA190619710e|2023 03 10 15:12:18.159|+0200|Error| |==|E| |BIlaunchpad|3360597| 162|http-nio-8080-exec-64| |21|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:162.31568:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:162.31568:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:162.31568:2|CgYxsh9bmUJminuJvzvmyKw53d0|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
+|77AA32971146464C9BA5550EA190619710e|2023 03 10 15:12:18.159|+0200|Error| |==|E| |BIlaunchpad|3360597| 162|http-nio-8080-exec-64| |21|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:162.31568:1|BIlaunchpad.WebApp|myserver.local:3360597:162.31568:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:162.31568:2|CgYxsh9bmUJminuJvzvmyKw53d0|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -5467,7 +5467,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA190619710f|2023 03 10 15:13:25.915|+0200|Error| |==|E| |BIlaunchpad|3360597| 172|http-nio-8080-exec-74| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:172.31569:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:172.31569:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:172.31569:2|CgYxsh9bmUJminuJvzvmyKw53d1|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
+|77AA32971146464C9BA5550EA190619710f|2023 03 10 15:13:25.915|+0200|Error| |==|E| |BIlaunchpad|3360597| 172|http-nio-8080-exec-74| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:172.31569:1|BIlaunchpad.WebApp|myserver.local:3360597:172.31569:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:172.31569:2|CgYxsh9bmUJminuJvzvmyKw53d1|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -5548,7 +5548,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197110|2023 03 10 15:14:10.979|+0200|Error| |==|E| |BIlaunchpad|3360597| 176|http-nio-8080-exec-78| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:176.31595:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:176.31595:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:176.31595:2|CgYxsh9bmUJminuJvzvmyKw53ea|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
+|77AA32971146464C9BA5550EA1906197110|2023 03 10 15:14:10.979|+0200|Error| |==|E| |BIlaunchpad|3360597| 176|http-nio-8080-exec-78| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:176.31595:1|BIlaunchpad.WebApp|myserver.local:3360597:176.31595:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:176.31595:2|CgYxsh9bmUJminuJvzvmyKw53ea|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -5629,7 +5629,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197111|2023 03 10 15:14:14.507|+0200|Error| |==|E| |BIlaunchpad|3360597| 166|http-nio-8080-exec-68| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:166.31596:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:166.31596:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:166.31596:2|CgYxsh9bmUJminuJvzvmyKw53eb|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197111|2023 03 10 15:14:14.507|+0200|Error| |==|E| |BIlaunchpad|3360597| 166|http-nio-8080-exec-68| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:166.31596:1|BIlaunchpad.WebApp|myserver.local:3360597:166.31596:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:166.31596:2|CgYxsh9bmUJminuJvzvmyKw53eb|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -5708,9 +5708,9 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA190619711f|2023 03 10 15:17:09.214|+0200|Error| |==|E| |BIlaunchpad|3360597| 163|http-nio-8080-exec-65| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:163.31735:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:163.31735:1|CgYxsh9bmUJminuJvzvmyKw5475|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|77AA32971146464C9BA5550EA1906197120|2023 03 10 15:17:49.591|+0200|Error| |==|E| |BIlaunchpad|3360597| 161|http-nio-8080-exec-63| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:161.31748:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:161.31748:1|CgYxsh9bmUJminuJvzvmyKw5482|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|77AA32971146464C9BA5550EA1906197123|2023 03 10 15:24:35.956|+0200|Error| |==|E| |BIlaunchpad|3360597| 168|http-nio-8080-exec-70| |21|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:168.31781:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:168.31781:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:168.31781:2|CgYxsh9bmUJminuJvzvmyKw549f|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
+|77AA32971146464C9BA5550EA190619711f|2023 03 10 15:17:09.214|+0200|Error| |==|E| |BIlaunchpad|3360597| 163|http-nio-8080-exec-65| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:3360597:163.31735:1|-|-|BIlaunchpad.WebApp|myserver.local:3360597:163.31735:1|CgYxsh9bmUJminuJvzvmyKw5475|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|77AA32971146464C9BA5550EA1906197120|2023 03 10 15:17:49.591|+0200|Error| |==|E| |BIlaunchpad|3360597| 161|http-nio-8080-exec-63| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:3360597:161.31748:1|-|-|BIlaunchpad.WebApp|myserver.local:3360597:161.31748:1|CgYxsh9bmUJminuJvzvmyKw5482|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|77AA32971146464C9BA5550EA1906197123|2023 03 10 15:24:35.956|+0200|Error| |==|E| |BIlaunchpad|3360597| 168|http-nio-8080-exec-70| |21|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:168.31781:1|BIlaunchpad.WebApp|myserver.local:3360597:168.31781:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:168.31781:2|CgYxsh9bmUJminuJvzvmyKw549f|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -5791,7 +5791,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197124|2023 03 10 15:29:30.164|+0200|Error| |==|E| |BIlaunchpad|3360597| 158|http-nio-8080-exec-60| |21|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:158.31786:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:158.31786:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:158.31786:2|CgYxsh9bmUJminuJvzvmyKw54a2|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
+|77AA32971146464C9BA5550EA1906197124|2023 03 10 15:29:30.164|+0200|Error| |==|E| |BIlaunchpad|3360597| 158|http-nio-8080-exec-60| |21|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:158.31786:1|BIlaunchpad.WebApp|myserver.local:3360597:158.31786:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:158.31786:2|CgYxsh9bmUJminuJvzvmyKw54a2|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -5872,7 +5872,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197125|2023 03 10 15:30:14.827|+0200|Error| |==|E| |BIlaunchpad|3360597| 173|http-nio-8080-exec-75| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:173.31790:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:173.31790:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:173.31790:2|CgYxsh9bmUJminuJvzvmyKw54a5|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
+|77AA32971146464C9BA5550EA1906197125|2023 03 10 15:30:14.827|+0200|Error| |==|E| |BIlaunchpad|3360597| 173|http-nio-8080-exec-75| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:173.31790:1|BIlaunchpad.WebApp|myserver.local:3360597:173.31790:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:173.31790:2|CgYxsh9bmUJminuJvzvmyKw54a5|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -5953,7 +5953,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197126|2023 03 10 15:31:00.082|+0200|Error| |==|E| |BIlaunchpad|3360597| 160|http-nio-8080-exec-62| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:160.31791:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:160.31791:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:160.31791:2|CgYxsh9bmUJminuJvzvmyKw54a6|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
+|77AA32971146464C9BA5550EA1906197126|2023 03 10 15:31:00.082|+0200|Error| |==|E| |BIlaunchpad|3360597| 160|http-nio-8080-exec-62| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:160.31791:1|BIlaunchpad.WebApp|myserver.local:3360597:160.31791:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:160.31791:2|CgYxsh9bmUJminuJvzvmyKw54a6|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -6034,7 +6034,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197127|2023 03 10 15:31:44.909|+0200|Error| |==|E| |BIlaunchpad|3360597| 168|http-nio-8080-exec-70| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:168.31792:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:168.31792:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:168.31792:2|CgYxsh9bmUJminuJvzvmyKw54a7|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
+|77AA32971146464C9BA5550EA1906197127|2023 03 10 15:31:44.909|+0200|Error| |==|E| |BIlaunchpad|3360597| 168|http-nio-8080-exec-70| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:168.31792:1|BIlaunchpad.WebApp|myserver.local:3360597:168.31792:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:168.31792:2|CgYxsh9bmUJminuJvzvmyKw54a7|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -6115,7 +6115,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197128|2023 03 10 15:34:20.566|+0200|Error| |==|E| |BIlaunchpad|3360597| 164|http-nio-8080-exec-66| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:164.31797:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:164.31797:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:3360597:164.31797:2|CgYxsh9bmUJminuJvzvmyKw54aa|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
+|77AA32971146464C9BA5550EA1906197128|2023 03 10 15:34:20.566|+0200|Error| |==|E| |BIlaunchpad|3360597| 164|http-nio-8080-exec-66| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:164.31797:1|BIlaunchpad.WebApp|myserver.local:3360597:164.31797:1|BIPSDK.EnterpriseSession:getService|myserver.local:3360597:164.31797:2|CgYxsh9bmUJminuJvzvmyKw54aa|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=279900JJC1dGZOVEiJMV5lN3v3ryA0MmmroGmr3279899JjG0yf0YFSNdtvPEiN7ktRHRdYxrBBCJr, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -6196,8 +6196,8 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA190619712a|2023 03 10 15:49:31.974|+0200|Error| |==|E| |BIlaunchpad|3360597| 168|http-nio-8080-exec-70| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:168.31827:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:168.31827:1|CgYxsh9bmUJminuJvzvmyKw54c1|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|77AA32971146464C9BA5550EA190619712d|2023 03 11 11:36:11.754|+0200|Error| |==|E| |BIlaunchpad|3360597| 160|http-nio-8080-exec-62| |7|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:160.33133:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:160.33133:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:160.33133:2|CgYxsh9bmUJminuJvzvmyKw578a|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA190619712a|2023 03 10 15:49:31.974|+0200|Error| |==|E| |BIlaunchpad|3360597| 168|http-nio-8080-exec-70| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:3360597:168.31827:1|-|-|BIlaunchpad.WebApp|myserver.local:3360597:168.31827:1|CgYxsh9bmUJminuJvzvmyKw54c1|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|77AA32971146464C9BA5550EA190619712d|2023 03 11 11:36:11.754|+0200|Error| |==|E| |BIlaunchpad|3360597| 160|http-nio-8080-exec-62| |7|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:160.33133:1|BIlaunchpad.WebApp|myserver.local:3360597:160.33133:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:160.33133:2|CgYxsh9bmUJminuJvzvmyKw578a|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -6276,7 +6276,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA190619713b|2023 03 12 17:44:24.960|+0200|Error| |==|E| |BIlaunchpad|3360597| 159|http-nio-8080-exec-61| |19|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:159.34976:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:159.34976:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:159.34976:2|CgYxsh9bmUJminuJvzvmyKw5b36|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA190619713b|2023 03 12 17:44:24.960|+0200|Error| |==|E| |BIlaunchpad|3360597| 159|http-nio-8080-exec-61| |19|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:159.34976:1|BIlaunchpad.WebApp|myserver.local:3360597:159.34976:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:159.34976:2|CgYxsh9bmUJminuJvzvmyKw5b36|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -6355,7 +6355,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA190619713c|2023 03 12 17:45:11.374|+0200|Error| |==|E| |BIlaunchpad|3360597| 171|http-nio-8080-exec-73| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:171.34984:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:171.34984:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:171.34984:2|CgYxsh9bmUJminuJvzvmyKw5b3d|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA190619713c|2023 03 12 17:45:11.374|+0200|Error| |==|E| |BIlaunchpad|3360597| 171|http-nio-8080-exec-73| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:171.34984:1|BIlaunchpad.WebApp|myserver.local:3360597:171.34984:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:171.34984:2|CgYxsh9bmUJminuJvzvmyKw5b3d|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -6434,7 +6434,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197163|2023 03 13 12:53:37.187|+0200|Error| |==|E| |BIlaunchpad|3360597| 169|http-nio-8080-exec-71| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:169.38127:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:169.38127:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:169.38127:2|CgYxsh9bmUJminuJvzvmyKw654b|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197163|2023 03 13 12:53:37.187|+0200|Error| |==|E| |BIlaunchpad|3360597| 169|http-nio-8080-exec-71| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:169.38127:1|BIlaunchpad.WebApp|myserver.local:3360597:169.38127:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:169.38127:2|CgYxsh9bmUJminuJvzvmyKw654b|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -6513,7 +6513,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197167|2023 03 13 13:28:06.991|+0200|Error| |==|E| |BIlaunchpad|3360597| 155|http-nio-8080-exec-57| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:155.38270:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:155.38270:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:155.38270:2|CgYxsh9bmUJminuJvzvmyKw65c9|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197167|2023 03 13 13:28:06.991|+0200|Error| |==|E| |BIlaunchpad|3360597| 155|http-nio-8080-exec-57| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:155.38270:1|BIlaunchpad.WebApp|myserver.local:3360597:155.38270:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:155.38270:2|CgYxsh9bmUJminuJvzvmyKw65c9|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -6592,7 +6592,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197168|2023 03 13 13:28:07.554|+0200|Error| |==|E| |BIlaunchpad|3360597| 181|http-nio-8080-exec-79| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:181.38271:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:181.38271:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:181.38271:2|CgYxsh9bmUJminuJvzvmyKw65ca|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197168|2023 03 13 13:28:07.554|+0200|Error| |==|E| |BIlaunchpad|3360597| 181|http-nio-8080-exec-79| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:181.38271:1|BIlaunchpad.WebApp|myserver.local:3360597:181.38271:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:181.38271:2|CgYxsh9bmUJminuJvzvmyKw65ca|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -6671,7 +6671,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197169|2023 03 13 13:33:58.040|+0200|Error| |==|E| |BIlaunchpad|3360597| 168|http-nio-8080-exec-70| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:168.38550:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:168.38550:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:168.38550:2|CgYxsh9bmUJminuJvzvmyKw66de|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197169|2023 03 13 13:33:58.040|+0200|Error| |==|E| |BIlaunchpad|3360597| 168|http-nio-8080-exec-70| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:168.38550:1|BIlaunchpad.WebApp|myserver.local:3360597:168.38550:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:168.38550:2|CgYxsh9bmUJminuJvzvmyKw66de|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -6750,7 +6750,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197177|2023 03 13 13:34:09.579|+0200|Error| |==|E| |BIlaunchpad|3360597| 161|http-nio-8080-exec-63| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:161.38588:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:161.38588:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:161.38588:2|CgYxsh9bmUJminuJvzvmyKw6704|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197177|2023 03 13 13:34:09.579|+0200|Error| |==|E| |BIlaunchpad|3360597| 161|http-nio-8080-exec-63| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:161.38588:1|BIlaunchpad.WebApp|myserver.local:3360597:161.38588:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:161.38588:2|CgYxsh9bmUJminuJvzvmyKw6704|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -6829,7 +6829,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197178|2023 03 13 13:34:47.080|+0200|Error| |==|E| |BIlaunchpad|3360597| 163|http-nio-8080-exec-65| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:163.38817:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:163.38817:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:163.38817:2|CgYxsh9bmUJminuJvzvmyKw67e9|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197178|2023 03 13 13:34:47.080|+0200|Error| |==|E| |BIlaunchpad|3360597| 163|http-nio-8080-exec-65| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:163.38817:1|BIlaunchpad.WebApp|myserver.local:3360597:163.38817:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:163.38817:2|CgYxsh9bmUJminuJvzvmyKw67e9|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -6908,7 +6908,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197179|2023 03 13 13:47:54.365|+0200|Error| |==|E| |BIlaunchpad|3360597| 158|http-nio-8080-exec-60| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:158.38988:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:158.38988:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:158.38988:2|CgYxsh9bmUJminuJvzvmyKw688d|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197179|2023 03 13 13:47:54.365|+0200|Error| |==|E| |BIlaunchpad|3360597| 158|http-nio-8080-exec-60| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:158.38988:1|BIlaunchpad.WebApp|myserver.local:3360597:158.38988:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:158.38988:2|CgYxsh9bmUJminuJvzvmyKw688d|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -6987,7 +6987,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA190619717c|2023 03 13 13:52:49.228|+0200|Error| |==|E| |BIlaunchpad|3360597| 168|http-nio-8080-exec-70| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:168.39130:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:168.39130:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:168.39130:2|CgYxsh9bmUJminuJvzvmyKw6919|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA190619717c|2023 03 13 13:52:49.228|+0200|Error| |==|E| |BIlaunchpad|3360597| 168|http-nio-8080-exec-70| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:168.39130:1|BIlaunchpad.WebApp|myserver.local:3360597:168.39130:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:168.39130:2|CgYxsh9bmUJminuJvzvmyKw6919|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -7066,9 +7066,9 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA190619718a|2023 03 13 13:54:19.662|+0200|Error| |==|E| |BIlaunchpad|3360597| 164|http-nio-8080-exec-66| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:164.39169:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:164.39169:1|CgYxsh9bmUJminuJvzvmyKw6940|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|77AA32971146464C9BA5550EA190619718d|2023 03 13 13:56:49.008|+0200|Error| |==|E| |BIlaunchpad|3360597| 155|http-nio-8080-exec-57| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:155.39515:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:155.39515:1|CgYxsh9bmUJminuJvzvmyKw6a98|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|77AA32971146464C9BA5550EA190619718e|2023 03 13 14:02:59.349|+0200|Error| |==|E| |BIlaunchpad|3360597| 162|http-nio-8080-exec-64| |7|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:162.39586:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:162.39586:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:162.39586:2|CgYxsh9bmUJminuJvzvmyKw6adc|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA190619718a|2023 03 13 13:54:19.662|+0200|Error| |==|E| |BIlaunchpad|3360597| 164|http-nio-8080-exec-66| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:3360597:164.39169:1|-|-|BIlaunchpad.WebApp|myserver.local:3360597:164.39169:1|CgYxsh9bmUJminuJvzvmyKw6940|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|77AA32971146464C9BA5550EA190619718d|2023 03 13 13:56:49.008|+0200|Error| |==|E| |BIlaunchpad|3360597| 155|http-nio-8080-exec-57| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:3360597:155.39515:1|-|-|BIlaunchpad.WebApp|myserver.local:3360597:155.39515:1|CgYxsh9bmUJminuJvzvmyKw6a98|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|77AA32971146464C9BA5550EA190619718e|2023 03 13 14:02:59.349|+0200|Error| |==|E| |BIlaunchpad|3360597| 162|http-nio-8080-exec-64| |7|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:162.39586:1|BIlaunchpad.WebApp|myserver.local:3360597:162.39586:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:162.39586:2|CgYxsh9bmUJminuJvzvmyKw6adc|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -7147,7 +7147,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA190619718f|2023 03 13 14:04:29.269|+0200|Error| |==|E| |BIlaunchpad|3360597| 173|http-nio-8080-exec-75| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:173.39601:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:173.39601:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:173.39601:2|CgYxsh9bmUJminuJvzvmyKw6aea|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA190619718f|2023 03 13 14:04:29.269|+0200|Error| |==|E| |BIlaunchpad|3360597| 173|http-nio-8080-exec-75| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:173.39601:1|BIlaunchpad.WebApp|myserver.local:3360597:173.39601:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:173.39601:2|CgYxsh9bmUJminuJvzvmyKw6aea|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -7226,7 +7226,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197190|2023 03 13 14:05:08.705|+0200|Error| |==|E| |BIlaunchpad|3360597| 162|http-nio-8080-exec-64| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:162.39605:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:162.39605:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:162.39605:2|CgYxsh9bmUJminuJvzvmyKw6aee|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197190|2023 03 13 14:05:08.705|+0200|Error| |==|E| |BIlaunchpad|3360597| 162|http-nio-8080-exec-64| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:162.39605:1|BIlaunchpad.WebApp|myserver.local:3360597:162.39605:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:162.39605:2|CgYxsh9bmUJminuJvzvmyKw6aee|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -7305,7 +7305,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197191|2023 03 13 14:05:37.592|+0200|Error| |==|E| |BIlaunchpad|3360597| 157|http-nio-8080-exec-59| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:157.39643:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:157.39643:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:3360597:157.39643:2|CgYxsh9bmUJminuJvzvmyKw6b14|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197191|2023 03 13 14:05:37.592|+0200|Error| |==|E| |BIlaunchpad|3360597| 157|http-nio-8080-exec-59| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:3360597:157.39643:1|BIlaunchpad.WebApp|myserver.local:3360597:157.39643:1|BIPSDK.SessionMgr:logon|myserver.local:3360597:157.39643:2|CgYxsh9bmUJminuJvzvmyKw6b14|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -7384,10 +7384,10 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|77AA32971146464C9BA5550EA1906197197|2023 03 13 15:18:31.636|+0200|Error| |==|E| |BIlaunchpad|3360597| 156|http-nio-8080-exec-58| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:156.40266:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:3360597:156.40266:1|CgYxsh9bmUJminuJvzvmyKw6d60|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA3|2023 03 13 20:32:02.101|+0200|Error| |==|E| |BIlaunchpad|29677|  67|http-nio-8080-exec-3| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:67.78:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:67.78:1|Cnh2c2m0xU7ijUFPhsvDd2c4c|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA4|2023 03 13 20:48:34.468|+0200|Error| |==|E| |BIlaunchpad|29677|  72|http-nio-8080-exec-8| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:72.143:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:72.143:1|Cnh2c2m0xU7ijUFPhsvDd2c85|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA7|2023 03 14 08:37:37.114|+0200|Error| |==|E| |BIlaunchpad|29677| 149|http-nio-8080-exec-42| |19|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:149.813:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:149.813:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:29677:149.813:2|Cnh2c2m0xU7ijUFPhsvDd2c1c2|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|77AA32971146464C9BA5550EA1906197197|2023 03 13 15:18:31.636|+0200|Error| |==|E| |BIlaunchpad|3360597| 156|http-nio-8080-exec-58| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:3360597:156.40266:1|-|-|BIlaunchpad.WebApp|myserver.local:3360597:156.40266:1|CgYxsh9bmUJminuJvzvmyKw6d60|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA3|2023 03 13 20:32:02.101|+0200|Error| |==|E| |BIlaunchpad|29677|  67|http-nio-8080-exec-3| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:67.78:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:67.78:1|Cnh2c2m0xU7ijUFPhsvDd2c4c|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA4|2023 03 13 20:48:34.468|+0200|Error| |==|E| |BIlaunchpad|29677|  72|http-nio-8080-exec-8| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:72.143:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:72.143:1|Cnh2c2m0xU7ijUFPhsvDd2c85|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA7|2023 03 14 08:37:37.114|+0200|Error| |==|E| |BIlaunchpad|29677| 149|http-nio-8080-exec-42| |19|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:149.813:1|BIlaunchpad.WebApp|myserver.local:29677:149.813:1|BIPSDK.SessionMgr:logon|myserver.local:29677:149.813:2|Cnh2c2m0xU7ijUFPhsvDd2c1c2|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -7466,8 +7466,8 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA8|2023 03 14 08:44:52.290|+0200|Error| |==|E| |BIlaunchpad|29677| 150|http-nio-8080-exec-43| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:150.957:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:150.957:1|Cnh2c2m0xU7ijUFPhsvDd2c24e|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FAd|2023 03 14 13:21:20.807|+0200|Error| |==|E| |BIlaunchpad|29677| 107|http-nio-8080-exec-28| |19|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:107.1659:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:107.1659:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:29677:107.1659:2|Cnh2c2m0xU7ijUFPhsvDd2c483|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|80F30B2ED3794DF3A5F376C3976D67FA8|2023 03 14 08:44:52.290|+0200|Error| |==|E| |BIlaunchpad|29677| 150|http-nio-8080-exec-43| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:150.957:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:150.957:1|Cnh2c2m0xU7ijUFPhsvDd2c24e|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FAd|2023 03 14 13:21:20.807|+0200|Error| |==|E| |BIlaunchpad|29677| 107|http-nio-8080-exec-28| |19|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:107.1659:1|BIlaunchpad.WebApp|myserver.local:29677:107.1659:1|BIPSDK.SessionMgr:logon|myserver.local:29677:107.1659:2|Cnh2c2m0xU7ijUFPhsvDd2c483|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -7546,7 +7546,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FAe|2023 03 14 13:22:04.110|+0200|Error| |==|E| |BIlaunchpad|29677| 107|http-nio-8080-exec-28| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:107.1701:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:107.1701:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:29677:107.1701:2|Cnh2c2m0xU7ijUFPhsvDd2c4ac|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|80F30B2ED3794DF3A5F376C3976D67FAe|2023 03 14 13:22:04.110|+0200|Error| |==|E| |BIlaunchpad|29677| 107|http-nio-8080-exec-28| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:107.1701:1|BIlaunchpad.WebApp|myserver.local:29677:107.1701:1|BIPSDK.SessionMgr:logon|myserver.local:29677:107.1701:2|Cnh2c2m0xU7ijUFPhsvDd2c4ac|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -7625,7 +7625,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA1c|2023 03 15 09:58:33.087|+0200|Error| |==|E| |BIlaunchpad|29677| 141|http-nio-8080-exec-40| |41|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:141.3804:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:141.3804:1|BIPSDK.InfoStore:query|srv010215.mud.internal.co.za:29677:141.3804:3|Cnh2c2m0xU7ijUFPhsvDd2ca7b|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=286869J2PfLlqlvNEnDJSUm1a15PzpfU45Uv2v3286868JZegTp6A84YLtJqGWkWnkdLM27gM5Irjg, errorCode=10496
+|80F30B2ED3794DF3A5F376C3976D67FA1c|2023 03 15 09:58:33.087|+0200|Error| |==|E| |BIlaunchpad|29677| 141|http-nio-8080-exec-40| |41|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:141.3804:1|BIlaunchpad.WebApp|myserver.local:29677:141.3804:1|BIPSDK.InfoStore:query|myserver.local:29677:141.3804:3|Cnh2c2m0xU7ijUFPhsvDd2ca7b|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=286869J2PfLlqlvNEnDJSUm1a15PzpfU45Uv2v3286868JZegTp6A84YLtJqGWkWnkdLM27gM5Irjg, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -7702,7 +7702,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA1d|2023 03 15 09:58:33.125|+0200|Error| |==|E| |BIlaunchpad|29677| 112|http-nio-8080-exec-33| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:112.3805:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:112.3805:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:29677:112.3805:2|Cnh2c2m0xU7ijUFPhsvDd2ca7c|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=286869J2PfLlqlvNEnDJSUm1a15PzpfU45Uv2v3286868JZegTp6A84YLtJqGWkWnkdLM27gM5Irjg, errorCode=10496
+|80F30B2ED3794DF3A5F376C3976D67FA1d|2023 03 15 09:58:33.125|+0200|Error| |==|E| |BIlaunchpad|29677| 112|http-nio-8080-exec-33| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:112.3805:1|BIlaunchpad.WebApp|myserver.local:29677:112.3805:1|BIPSDK.EnterpriseSession:getService|myserver.local:29677:112.3805:2|Cnh2c2m0xU7ijUFPhsvDd2ca7c|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=286869J2PfLlqlvNEnDJSUm1a15PzpfU45Uv2v3286868JZegTp6A84YLtJqGWkWnkdLM27gM5Irjg, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -7786,7 +7786,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA20|2023 03 15 09:58:33.165|+0200|Error| |==|E| |BIlaunchpad|29677| 114|http-nio-8080-exec-35| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:114.3806:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:114.3806:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:29677:114.3806:2|Cnh2c2m0xU7ijUFPhsvDd2ca7d|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=286869J2PfLlqlvNEnDJSUm1a15PzpfU45Uv2v3286868JZegTp6A84YLtJqGWkWnkdLM27gM5Irjg, errorCode=10496
+|80F30B2ED3794DF3A5F376C3976D67FA20|2023 03 15 09:58:33.165|+0200|Error| |==|E| |BIlaunchpad|29677| 114|http-nio-8080-exec-35| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:114.3806:1|BIlaunchpad.WebApp|myserver.local:29677:114.3806:1|BIPSDK.EnterpriseSession:getService|myserver.local:29677:114.3806:2|Cnh2c2m0xU7ijUFPhsvDd2ca7d|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=286869J2PfLlqlvNEnDJSUm1a15PzpfU45Uv2v3286868JZegTp6A84YLtJqGWkWnkdLM27gM5Irjg, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -7870,7 +7870,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA2b|2023 03 16 04:55:20.254|+0200|Error| |==|E| |BIlaunchpad|29677| 113|http-nio-8080-exec-34| |1|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:113.5502:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:113.5502:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:29677:113.5502:2|Cnh2c2m0xU7ijUFPhsvDd2cee9|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|80F30B2ED3794DF3A5F376C3976D67FA2b|2023 03 16 04:55:20.254|+0200|Error| |==|E| |BIlaunchpad|29677| 113|http-nio-8080-exec-34| |1|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:113.5502:1|BIlaunchpad.WebApp|myserver.local:29677:113.5502:1|BIPSDK.SessionMgr:logon|myserver.local:29677:113.5502:2|Cnh2c2m0xU7ijUFPhsvDd2cee9|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -7949,7 +7949,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA37|2023 03 16 13:58:49.704|+0200|Error| |==|E| |BIlaunchpad|29677| 139|http-nio-8080-exec-39| |41|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:139.7352:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:139.7352:1|BIPSDK.InfoStore:query|srv010215.mud.internal.co.za:29677:139.7352:3|Cnh2c2m0xU7ijUFPhsvDd2c1514|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=288358JbCyRljuM6ahMoSzi79hAijPs56dYbwn1288357JhJG9o2HAfKRKPOPo37k5wXSt9cc9isSe, errorCode=10496
+|80F30B2ED3794DF3A5F376C3976D67FA37|2023 03 16 13:58:49.704|+0200|Error| |==|E| |BIlaunchpad|29677| 139|http-nio-8080-exec-39| |41|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:139.7352:1|BIlaunchpad.WebApp|myserver.local:29677:139.7352:1|BIPSDK.InfoStore:query|myserver.local:29677:139.7352:3|Cnh2c2m0xU7ijUFPhsvDd2c1514|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=288358JbCyRljuM6ahMoSzi79hAijPs56dYbwn1288357JhJG9o2HAfKRKPOPo37k5wXSt9cc9isSe, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -8026,7 +8026,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA38|2023 03 16 13:58:49.741|+0200|Error| |==|E| |BIlaunchpad|29677| 106|http-nio-8080-exec-27| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:106.7353:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:106.7353:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:29677:106.7353:2|Cnh2c2m0xU7ijUFPhsvDd2c1515|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=288358JbCyRljuM6ahMoSzi79hAijPs56dYbwn1288357JhJG9o2HAfKRKPOPo37k5wXSt9cc9isSe, errorCode=10496
+|80F30B2ED3794DF3A5F376C3976D67FA38|2023 03 16 13:58:49.741|+0200|Error| |==|E| |BIlaunchpad|29677| 106|http-nio-8080-exec-27| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:106.7353:1|BIlaunchpad.WebApp|myserver.local:29677:106.7353:1|BIPSDK.EnterpriseSession:getService|myserver.local:29677:106.7353:2|Cnh2c2m0xU7ijUFPhsvDd2c1515|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=288358JbCyRljuM6ahMoSzi79hAijPs56dYbwn1288357JhJG9o2HAfKRKPOPo37k5wXSt9cc9isSe, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -8110,7 +8110,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA3b|2023 03 16 13:58:49.782|+0200|Error| |==|E| |BIlaunchpad|29677| 112|http-nio-8080-exec-33| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:112.7354:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:112.7354:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:29677:112.7354:2|Cnh2c2m0xU7ijUFPhsvDd2c1516|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=288358JbCyRljuM6ahMoSzi79hAijPs56dYbwn1288357JhJG9o2HAfKRKPOPo37k5wXSt9cc9isSe, errorCode=10496
+|80F30B2ED3794DF3A5F376C3976D67FA3b|2023 03 16 13:58:49.782|+0200|Error| |==|E| |BIlaunchpad|29677| 112|http-nio-8080-exec-33| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:112.7354:1|BIlaunchpad.WebApp|myserver.local:29677:112.7354:1|BIPSDK.EnterpriseSession:getService|myserver.local:29677:112.7354:2|Cnh2c2m0xU7ijUFPhsvDd2c1516|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=288358JbCyRljuM6ahMoSzi79hAijPs56dYbwn1288357JhJG9o2HAfKRKPOPo37k5wXSt9cc9isSe, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -8194,7 +8194,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA42|2023 03 17 09:05:48.088|+0200|Error| |==|E| |BIlaunchpad|29677| 141|http-nio-8080-exec-40| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:141.8666:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:141.8666:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:29677:141.8666:2|Cnh2c2m0xU7ijUFPhsvDd2c17fe|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|80F30B2ED3794DF3A5F376C3976D67FA42|2023 03 17 09:05:48.088|+0200|Error| |==|E| |BIlaunchpad|29677| 141|http-nio-8080-exec-40| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:141.8666:1|BIlaunchpad.WebApp|myserver.local:29677:141.8666:1|BIPSDK.SessionMgr:logon|myserver.local:29677:141.8666:2|Cnh2c2m0xU7ijUFPhsvDd2c17fe|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -8273,7 +8273,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA43|2023 03 17 09:06:18.039|+0200|Error| |==|E| |BIlaunchpad|29677| 161|http-nio-8080-exec-50| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:161.8673:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:161.8673:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:29677:161.8673:2|Cnh2c2m0xU7ijUFPhsvDd2c1805|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|80F30B2ED3794DF3A5F376C3976D67FA43|2023 03 17 09:06:18.039|+0200|Error| |==|E| |BIlaunchpad|29677| 161|http-nio-8080-exec-50| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:161.8673:1|BIlaunchpad.WebApp|myserver.local:29677:161.8673:1|BIPSDK.SessionMgr:logon|myserver.local:29677:161.8673:2|Cnh2c2m0xU7ijUFPhsvDd2c1805|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -8352,7 +8352,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA44|2023 03 17 09:06:21.944|+0200|Error| |==|E| |BIlaunchpad|29677| 111|http-nio-8080-exec-32| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:111.8675:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:111.8675:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:29677:111.8675:2|Cnh2c2m0xU7ijUFPhsvDd2c1807|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|80F30B2ED3794DF3A5F376C3976D67FA44|2023 03 17 09:06:21.944|+0200|Error| |==|E| |BIlaunchpad|29677| 111|http-nio-8080-exec-32| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:111.8675:1|BIlaunchpad.WebApp|myserver.local:29677:111.8675:1|BIPSDK.SessionMgr:logon|myserver.local:29677:111.8675:2|Cnh2c2m0xU7ijUFPhsvDd2c1807|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -8431,7 +8431,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA45|2023 03 17 09:07:00.196|+0200|Error| |==|E| |BIlaunchpad|29677| 150|http-nio-8080-exec-43| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:150.8677:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:150.8677:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:29677:150.8677:2|Cnh2c2m0xU7ijUFPhsvDd2c1809|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|80F30B2ED3794DF3A5F376C3976D67FA45|2023 03 17 09:07:00.196|+0200|Error| |==|E| |BIlaunchpad|29677| 150|http-nio-8080-exec-43| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:150.8677:1|BIlaunchpad.WebApp|myserver.local:29677:150.8677:1|BIPSDK.SessionMgr:logon|myserver.local:29677:150.8677:2|Cnh2c2m0xU7ijUFPhsvDd2c1809|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -8510,7 +8510,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA71|2023 03 23 08:51:18.124|+0200|Error| |==|E| |BIlaunchpad|29677| 109|http-nio-8080-exec-30| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:109.18223:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:109.18223:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:29677:109.18223:2|Cnh2c2m0xU7ijUFPhsvDd2c2c78|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|80F30B2ED3794DF3A5F376C3976D67FA71|2023 03 23 08:51:18.124|+0200|Error| |==|E| |BIlaunchpad|29677| 109|http-nio-8080-exec-30| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:109.18223:1|BIlaunchpad.WebApp|myserver.local:29677:109.18223:1|BIPSDK.SessionMgr:logon|myserver.local:29677:109.18223:2|Cnh2c2m0xU7ijUFPhsvDd2c2c78|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -8589,10 +8589,10 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FAb9|2023 03 23 09:41:40.998|+0200|Error| |==|E| |BIlaunchpad|29677| 141|http-nio-8080-exec-40| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:141.22239:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:141.22239:1|Cnh2c2m0xU7ijUFPhsvDd2c3c10|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FAba|2023 03 23 09:41:57.289|+0200|Error| |==|E| |BIlaunchpad|29677| 116|http-nio-8080-exec-37| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:116.22257:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:116.22257:1|Cnh2c2m0xU7ijUFPhsvDd2c3c22|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FAbe|2023 03 23 09:50:54.073|+0200|Error| |==|E| |BIlaunchpad|29677| 114|http-nio-8080-exec-35| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:114.22609:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:114.22609:1|Cnh2c2m0xU7ijUFPhsvDd2c3d7e|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA10f|2023 03 23 11:40:01.903|+0200|Error| |==|E| |BIlaunchpad|29677| 105|http-nio-8080-exec-26| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:105.27485:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:105.27485:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:29677:105.27485:2|Cnh2c2m0xU7ijUFPhsvDd2c5054|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|80F30B2ED3794DF3A5F376C3976D67FAb9|2023 03 23 09:41:40.998|+0200|Error| |==|E| |BIlaunchpad|29677| 141|http-nio-8080-exec-40| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:141.22239:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:141.22239:1|Cnh2c2m0xU7ijUFPhsvDd2c3c10|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FAba|2023 03 23 09:41:57.289|+0200|Error| |==|E| |BIlaunchpad|29677| 116|http-nio-8080-exec-37| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:116.22257:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:116.22257:1|Cnh2c2m0xU7ijUFPhsvDd2c3c22|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FAbe|2023 03 23 09:50:54.073|+0200|Error| |==|E| |BIlaunchpad|29677| 114|http-nio-8080-exec-35| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:114.22609:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:114.22609:1|Cnh2c2m0xU7ijUFPhsvDd2c3d7e|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA10f|2023 03 23 11:40:01.903|+0200|Error| |==|E| |BIlaunchpad|29677| 105|http-nio-8080-exec-26| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:105.27485:1|BIlaunchpad.WebApp|myserver.local:29677:105.27485:1|BIPSDK.SessionMgr:logon|myserver.local:29677:105.27485:2|Cnh2c2m0xU7ijUFPhsvDd2c5054|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -8671,12 +8671,12 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA112|2023 03 23 12:23:07.924|+0200|Error| |==|E| |BIlaunchpad|29677| 116|http-nio-8080-exec-37| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:116.28165:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:116.28165:1|Cnh2c2m0xU7ijUFPhsvDd2c52e7|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA123|2023 03 23 13:55:44.789|+0200|Error| |==|E| |BIlaunchpad|29677| 153|http-nio-8080-exec-46| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:153.29517:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:153.29517:1|Cnh2c2m0xU7ijUFPhsvDd2c5800|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA124|2023 03 23 13:55:50.646|+0200|Error| |==|E| |BIlaunchpad|29677| 155|http-nio-8080-exec-48| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:155.29521:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:155.29521:1|Cnh2c2m0xU7ijUFPhsvDd2c5804|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA137|2023 03 23 15:02:42.451|+0200|Error| |==|E| |BIlaunchpad|29677| 113|http-nio-8080-exec-34| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:113.30700:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:113.30700:1|Cnh2c2m0xU7ijUFPhsvDd2c5c7e|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA138|2023 03 23 15:02:56.524|+0200|Error| |==|E| |BIlaunchpad|29677| 155|http-nio-8080-exec-48| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:155.30746:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:155.30746:1|Cnh2c2m0xU7ijUFPhsvDd2c5cac|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA143|2023 03 23 15:59:34.563|+0200|Error| |==|E| |BIlaunchpad|29677| 142|http-nio-8080-exec-41| |29|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:142.31789:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:142.31789:1|BIPSDK.InfoStore:query|srv010215.mud.internal.co.za:29677:142.31789:3|Cnh2c2m0xU7ijUFPhsvDd2c60a2|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=308373Ji6L8ty3h8mfQRGnAaMR0soY9dllnNowv308372JIR3iNQoLFHTSgqeti0AJT9A8US7ObhOm, errorCode=10496
+|80F30B2ED3794DF3A5F376C3976D67FA112|2023 03 23 12:23:07.924|+0200|Error| |==|E| |BIlaunchpad|29677| 116|http-nio-8080-exec-37| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:116.28165:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:116.28165:1|Cnh2c2m0xU7ijUFPhsvDd2c52e7|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA123|2023 03 23 13:55:44.789|+0200|Error| |==|E| |BIlaunchpad|29677| 153|http-nio-8080-exec-46| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:153.29517:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:153.29517:1|Cnh2c2m0xU7ijUFPhsvDd2c5800|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA124|2023 03 23 13:55:50.646|+0200|Error| |==|E| |BIlaunchpad|29677| 155|http-nio-8080-exec-48| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:155.29521:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:155.29521:1|Cnh2c2m0xU7ijUFPhsvDd2c5804|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA137|2023 03 23 15:02:42.451|+0200|Error| |==|E| |BIlaunchpad|29677| 113|http-nio-8080-exec-34| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:113.30700:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:113.30700:1|Cnh2c2m0xU7ijUFPhsvDd2c5c7e|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA138|2023 03 23 15:02:56.524|+0200|Error| |==|E| |BIlaunchpad|29677| 155|http-nio-8080-exec-48| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:155.30746:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:155.30746:1|Cnh2c2m0xU7ijUFPhsvDd2c5cac|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA143|2023 03 23 15:59:34.563|+0200|Error| |==|E| |BIlaunchpad|29677| 142|http-nio-8080-exec-41| |29|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:142.31789:1|BIlaunchpad.WebApp|myserver.local:29677:142.31789:1|BIPSDK.InfoStore:query|myserver.local:29677:142.31789:3|Cnh2c2m0xU7ijUFPhsvDd2c60a2|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=308373Ji6L8ty3h8mfQRGnAaMR0soY9dllnNowv308372JIR3iNQoLFHTSgqeti0AJT9A8US7ObhOm, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -8753,7 +8753,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA144|2023 03 23 15:59:34.600|+0200|Error| |==|E| |BIlaunchpad|29677| 150|http-nio-8080-exec-43| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:150.31790:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:150.31790:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:29677:150.31790:2|Cnh2c2m0xU7ijUFPhsvDd2c60a3|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=308373Ji6L8ty3h8mfQRGnAaMR0soY9dllnNowv308372JIR3iNQoLFHTSgqeti0AJT9A8US7ObhOm, errorCode=10496
+|80F30B2ED3794DF3A5F376C3976D67FA144|2023 03 23 15:59:34.600|+0200|Error| |==|E| |BIlaunchpad|29677| 150|http-nio-8080-exec-43| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:150.31790:1|BIlaunchpad.WebApp|myserver.local:29677:150.31790:1|BIPSDK.EnterpriseSession:getService|myserver.local:29677:150.31790:2|Cnh2c2m0xU7ijUFPhsvDd2c60a3|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=308373Ji6L8ty3h8mfQRGnAaMR0soY9dllnNowv308372JIR3iNQoLFHTSgqeti0AJT9A8US7ObhOm, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -8837,7 +8837,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA146|2023 03 23 15:59:34.640|+0200|Error| |==|E| |BIlaunchpad|29677| 114|http-nio-8080-exec-35| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:114.31791:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:114.31791:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:29677:114.31791:2|Cnh2c2m0xU7ijUFPhsvDd2c60a4|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=308373Ji6L8ty3h8mfQRGnAaMR0soY9dllnNowv308372JIR3iNQoLFHTSgqeti0AJT9A8US7ObhOm, errorCode=10496
+|80F30B2ED3794DF3A5F376C3976D67FA146|2023 03 23 15:59:34.640|+0200|Error| |==|E| |BIlaunchpad|29677| 114|http-nio-8080-exec-35| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:114.31791:1|BIlaunchpad.WebApp|myserver.local:29677:114.31791:1|BIPSDK.EnterpriseSession:getService|myserver.local:29677:114.31791:2|Cnh2c2m0xU7ijUFPhsvDd2c60a4|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=308373Ji6L8ty3h8mfQRGnAaMR0soY9dllnNowv308372JIR3iNQoLFHTSgqeti0AJT9A8US7ObhOm, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -8921,8 +8921,8 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA14d|2023 03 23 16:16:20.042|+0200|Error| |==|E| |BIlaunchpad|29677| 150|http-nio-8080-exec-43| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:150.31839:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:150.31839:1|Cnh2c2m0xU7ijUFPhsvDd2c60cc|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA18e|2023 03 24 09:21:57.580|+0200|Error| |==|E| |BIlaunchpad|29677| 116|http-nio-8080-exec-37| |29|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:116.35353:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:116.35353:1|BIPSDK.InfoStore:query|srv010215.mud.internal.co.za:29677:116.35353:3|Cnh2c2m0xU7ijUFPhsvDd2c6c86|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=309266JS6UAn59GjKbVlAh70ciX8ID2Jq0EHqtz309265JSN3YfEOJYQKHdWo7RPEENFI8FSC0yfSK, errorCode=10496
+|80F30B2ED3794DF3A5F376C3976D67FA14d|2023 03 23 16:16:20.042|+0200|Error| |==|E| |BIlaunchpad|29677| 150|http-nio-8080-exec-43| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:150.31839:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:150.31839:1|Cnh2c2m0xU7ijUFPhsvDd2c60cc|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA18e|2023 03 24 09:21:57.580|+0200|Error| |==|E| |BIlaunchpad|29677| 116|http-nio-8080-exec-37| |29|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:116.35353:1|BIlaunchpad.WebApp|myserver.local:29677:116.35353:1|BIPSDK.InfoStore:query|myserver.local:29677:116.35353:3|Cnh2c2m0xU7ijUFPhsvDd2c6c86|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=309266JS6UAn59GjKbVlAh70ciX8ID2Jq0EHqtz309265JSN3YfEOJYQKHdWo7RPEENFI8FSC0yfSK, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -8999,7 +8999,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA18f|2023 03 24 09:21:57.618|+0200|Error| |==|E| |BIlaunchpad|29677| 149|http-nio-8080-exec-42| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:149.35354:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:149.35354:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:29677:149.35354:2|Cnh2c2m0xU7ijUFPhsvDd2c6c87|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=309266JS6UAn59GjKbVlAh70ciX8ID2Jq0EHqtz309265JSN3YfEOJYQKHdWo7RPEENFI8FSC0yfSK, errorCode=10496
+|80F30B2ED3794DF3A5F376C3976D67FA18f|2023 03 24 09:21:57.618|+0200|Error| |==|E| |BIlaunchpad|29677| 149|http-nio-8080-exec-42| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:149.35354:1|BIlaunchpad.WebApp|myserver.local:29677:149.35354:1|BIPSDK.EnterpriseSession:getService|myserver.local:29677:149.35354:2|Cnh2c2m0xU7ijUFPhsvDd2c6c87|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=309266JS6UAn59GjKbVlAh70ciX8ID2Jq0EHqtz309265JSN3YfEOJYQKHdWo7RPEENFI8FSC0yfSK, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -9083,258 +9083,7 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA190|2023 03 24 09:21:57.658|+0200|Error| |==|E| |BIlaunchpad|29677| 151|http-nio-8080-exec-44| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:151.35355:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:151.35355:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:29677:151.35355:2|Cnh2c2m0xU7ijUFPhsvDd2c6c88|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=309266JS6UAn59GjKbVlAh70ciX8ID2Jq0EHqtz309265JSN3YfEOJYQKHdWo7RPEENFI8FSC0yfSK, errorCode=10496
-com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
-	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
-	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
-	at com.crystaldecisions.enterprise.ocaframework.FailoverLogonService.logonWithToken(FailoverLogonService.java:226)
-	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.reconnectCMS(ManagedSession.java:771)
-	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validateServer(ManagedSession.java:756)
-	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validateStatelessService(ManagedSession.java:574)
-	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.newService(ManagedSession.java:983)
-	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.get(ManagedSession.java:278)
-	at com.crystaldecisions.enterprise.ocaframework.ManagedSessions.get(ManagedSessions.java:301)
-	at com.crystaldecisions.enterprise.ocaframework.ServiceMgr.getManagedService_aroundBody4(ServiceMgr.java:539)
-	at com.crystaldecisions.enterprise.ocaframework.ServiceMgr.getManagedService(ServiceMgr.java:1)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.init(InternalInfoStore.java:1527)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.<init>(InternalInfoStore.java:179)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStoreFactory.makeOCCA(InternalInfoStoreFactory.java:119)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InfoStore.<init>(InfoStore.java:101)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InfoStoreFactory.makeOCCA(InfoStoreFactory.java:62)
-	at com.crystaldecisions.sdk.framework.internal.EnterpriseSession.getService_aroundBody14(EnterpriseSession.java:341)
-	at com.crystaldecisions.sdk.framework.internal.EnterpriseSession.getService(EnterpriseSession.java:1)
-	at com.crystaldecisions.sdk.framework.internal.EnterpriseSession.getService_aroundBody16(EnterpriseSession.java:361)
-	at com.crystaldecisions.sdk.framework.internal.EnterpriseSession.getService_aroundBody17$advice(EnterpriseSession.java:525)
-	at com.crystaldecisions.sdk.framework.internal.EnterpriseSession.getService(EnterpriseSession.java:1)
-	at com.businessobjects.bip.core.web.boetrustguard.BOETrustValidateFilter.isSessionValid(BOETrustValidateFilter.java:96)
-	at com.businessobjects.bip.core.web.boetrustguard.BOETrustValidateFilter.doFilter(BOETrustValidateFilter.java:65)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.webutil.boetrustguard.ClickjackingPreventionFilter.doFilter(ClickjackingPreventionFilter.java:66)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.sap.tc.ls.servlet.UCFServletFilter.doFilter(UCFServletFilter.java:609)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.bip.core.web.boetrustguard.BOETrustPrepareFilter.doFilter(BOETrustPrepareFilter.java:35)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.bip.core.web.supportabilty.TraceLogScopeFilter.doFilter(TraceLogScopeFilter.java:41)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.sdk.actionfilter.WorkflowFilter.doFilter(WorkflowFilter.java:47)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.bip.core.web.appcontext.RequestInitFilter.doFilter(RequestInitFilter.java:26)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.http.servlet.internal.BundlePathAwareServiceHandler.serviceHelper(BundlePathAwareServiceHandler.java:235)
-	at com.businessobjects.http.servlet.internal.BundlePathAwareServiceHandler.service(BundlePathAwareServiceHandler.java:197)
-	at com.businessobjects.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:248)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
-	at org.eclipse.equinox.servletbridge.BridgeServlet.service(BridgeServlet.java:275)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.businessobjects.pinger.TimeoutManagerFilter.doFilter(TimeoutManagerFilter.java:206)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.businessobjects.http.HttpMethodValidatorFilter.doFilter(HttpMethodValidatorFilter.java:43)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.businessobjects.saml.CustomSAMLDelegatingFilterProxy.doFilter(CustomSAMLDelegatingFilterProxy.java:57)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
-	at com.ibm.tivoli.integration.am.catalina.valves.AMTomcatValve.invoke(Unknown Source)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:836)
-
-|80F30B2ED3794DF3A5F376C3976D67FA19d|2023 03 24 09:41:47.086|+0200|Error| |==|E| |BIlaunchpad|29677| 150|http-nio-8080-exec-43| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:150.35502:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:150.35502:1|Cnh2c2m0xU7ijUFPhsvDd2c6d11|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA1aa|2023 03 24 10:54:27.982|+0200|Error| |==|E| |BIlaunchpad|29677| 139|http-nio-8080-exec-39| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:139.37301:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:139.37301:1|Cnh2c2m0xU7ijUFPhsvDd2c73f5|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA1b6|2023 03 24 11:36:19.686|+0200|Error| |==|E| |BIlaunchpad|29677| 112|http-nio-8080-exec-33| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:112.38340:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:112.38340:1|Cnh2c2m0xU7ijUFPhsvDd2c77ef|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA1b7|2023 03 24 11:36:52.683|+0200|Error| |==|E| |BIlaunchpad|29677| 152|http-nio-8080-exec-45| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:152.38363:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:152.38363:1|Cnh2c2m0xU7ijUFPhsvDd2c7806|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA1ce|2023 03 24 13:54:46.917|+0200|Error| |==|E| |BIlaunchpad|29677| 152|http-nio-8080-exec-45| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:152.40412:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:152.40412:1|Cnh2c2m0xU7ijUFPhsvDd2c7fc2|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA1d5|2023 03 24 14:22:39.520|+0200|Error| |==|E| |BIlaunchpad|29677| 149|http-nio-8080-exec-42| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:149.41374:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:149.41374:1|Cnh2c2m0xU7ijUFPhsvDd2c8376|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA205|2023 03 24 15:03:24.393|+0200|Error| |==|E| |BIlaunchpad|29677| 141|http-nio-8080-exec-40| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:141.42411:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:141.42411:1|Cnh2c2m0xU7ijUFPhsvDd2c876f|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA206|2023 03 24 15:03:28.080|+0200|Error| |==|E| |BIlaunchpad|29677| 105|http-nio-8080-exec-26| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:105.42418:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:105.42418:1|Cnh2c2m0xU7ijUFPhsvDd2c8776|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA21f|2023 03 27 14:55:13.123|+0200|Error| |==|E| |BIlaunchpad|29677| 150|http-nio-8080-exec-43| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:150.49700:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:150.49700:1|Cnh2c2m0xU7ijUFPhsvDd2c9b86|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA251|2023 03 28 16:55:47.117|+0200|Error| |==|E| |BIlaunchpad|29677| 150|http-nio-8080-exec-43| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:150.54584:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:150.54584:1|Cnh2c2m0xU7ijUFPhsvDd2cab94|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA254|2023 03 29 07:58:15.185|+0200|Error| |==|E| |BIlaunchpad|29677| 107|http-nio-8080-exec-28| |41|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:107.55873:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:107.55873:1|BIPSDK.InfoStore:query|srv010215.mud.internal.co.za:29677:107.55873:3|Cnh2c2m0xU7ijUFPhsvDd2caedb|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=319687JpfHwTcbNgH2UMXj06B6s0BOlm0qNG3JX319686JouD5Wr2k98qui71ZzDikUvgwTzDVTgVW, errorCode=10496
-com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
-	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
-	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
-	at com.crystaldecisions.enterprise.ocaframework.FailoverLogonService.logonWithToken(FailoverLogonService.java:226)
-	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.reconnectCMS(ManagedSession.java:771)
-	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validateServer(ManagedSession.java:756)
-	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validateStatelessService(ManagedSession.java:574)
-	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validate(ManagedSession.java:544)
-	at com.crystaldecisions.enterprise.ocaframework.ManagedService.invoke(ManagedService.java:495)
-	at com.crystaldecisions.sdk.occa.infostore.internal._InfoStoreEx4Proxy.queryEx3(_InfoStoreEx4Proxy.java:369)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore$XRL3WireStrategy.query(InternalInfoStore.java:1747)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.queryHelper(InternalInfoStore.java:1095)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.queryHelper(InternalInfoStore.java:1083)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.query_aroundBody18(InternalInfoStore.java:932)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.query(InternalInfoStore.java:1)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InfoStore.query_aroundBody16(InfoStore.java:205)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InfoStore.query_aroundBody17$advice(InfoStore.java:525)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InfoStore.query(InfoStore.java:1)
-	at com.businessobjects.bip.core.web.boetrustguard.BOETrustValidateFilter.isSessionValid(BOETrustValidateFilter.java:97)
-	at com.businessobjects.bip.core.web.boetrustguard.BOETrustValidateFilter.doFilter(BOETrustValidateFilter.java:65)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.bip.core.web.filter.BrowserRenderingModeFilter.doFilter(BrowserRenderingModeFilter.java:38)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.bip.core.web.boetrustguard.BOETrustPrepareFilter.doFilter(BOETrustPrepareFilter.java:35)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.bip.core.web.supportabilty.TraceLogScopeFilter.doFilter(TraceLogScopeFilter.java:41)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.sdk.actionfilter.WorkflowFilter.doFilter(WorkflowFilter.java:47)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.bip.core.web.appcontext.RequestInitFilter.doFilter(RequestInitFilter.java:26)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.http.servlet.internal.BundlePathAwareServiceHandler.serviceHelper(BundlePathAwareServiceHandler.java:235)
-	at com.businessobjects.http.servlet.internal.BundlePathAwareServiceHandler.service(BundlePathAwareServiceHandler.java:197)
-	at com.businessobjects.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:248)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
-	at org.eclipse.equinox.servletbridge.BridgeServlet.service(BridgeServlet.java:275)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.businessobjects.pinger.TimeoutManagerFilter.doFilter(TimeoutManagerFilter.java:206)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.businessobjects.http.HttpMethodValidatorFilter.doFilter(HttpMethodValidatorFilter.java:43)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.businessobjects.saml.CustomSAMLDelegatingFilterProxy.doFilter(CustomSAMLDelegatingFilterProxy.java:57)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
-	at com.ibm.tivoli.integration.am.catalina.valves.AMTomcatValve.invoke(Unknown Source)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:836)
-
-|80F30B2ED3794DF3A5F376C3976D67FA255|2023 03 29 07:58:15.222|+0200|Error| |==|E| |BIlaunchpad|29677| 112|http-nio-8080-exec-33| |13|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:112.55874:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:112.55874:1|BIPSDK.InfoStore:query|srv010215.mud.internal.co.za:29677:112.55874:3|Cnh2c2m0xU7ijUFPhsvDd2caedc|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=319687JpfHwTcbNgH2UMXj06B6s0BOlm0qNG3JX319686JouD5Wr2k98qui71ZzDikUvgwTzDVTgVW, errorCode=10496
-com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
-	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
-	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
-	at com.crystaldecisions.enterprise.ocaframework.FailoverLogonService.logonWithToken(FailoverLogonService.java:226)
-	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.reconnectCMS(ManagedSession.java:771)
-	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validateServer(ManagedSession.java:756)
-	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validateStatelessService(ManagedSession.java:574)
-	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validate(ManagedSession.java:544)
-	at com.crystaldecisions.enterprise.ocaframework.ManagedService.invoke(ManagedService.java:495)
-	at com.crystaldecisions.sdk.occa.infostore.internal._InfoStoreEx4Proxy.queryEx3(_InfoStoreEx4Proxy.java:369)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore$XRL3WireStrategy.query(InternalInfoStore.java:1747)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.queryHelper(InternalInfoStore.java:1095)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.queryHelper(InternalInfoStore.java:1083)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.query_aroundBody18(InternalInfoStore.java:932)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.query(InternalInfoStore.java:1)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InfoStore.query_aroundBody16(InfoStore.java:205)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InfoStore.query_aroundBody17$advice(InfoStore.java:525)
-	at com.crystaldecisions.sdk.occa.infostore.internal.InfoStore.query(InfoStore.java:1)
-	at com.businessobjects.bip.core.web.boetrustguard.BOETrustValidateFilter.isSessionValid(BOETrustValidateFilter.java:97)
-	at com.businessobjects.bip.core.web.boetrustguard.BOETrustValidateFilter.doFilter(BOETrustValidateFilter.java:65)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.bip.core.web.filter.BrowserRenderingModeFilter.doFilter(BrowserRenderingModeFilter.java:38)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.webutil.boetrustguard.ClickjackingPreventionFilter.doFilter(ClickjackingPreventionFilter.java:66)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.bip.core.web.boetrustguard.BOETrustPrepareFilter.doFilter(BOETrustPrepareFilter.java:35)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.bip.core.web.supportabilty.TraceLogScopeFilter.doFilter(TraceLogScopeFilter.java:41)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.sdk.actionfilter.WorkflowFilter.doFilter(WorkflowFilter.java:47)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.bip.core.web.appcontext.RequestInitFilter.doFilter(RequestInitFilter.java:26)
-	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
-	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
-	at com.businessobjects.http.servlet.internal.BundlePathAwareServiceHandler.serviceHelper(BundlePathAwareServiceHandler.java:235)
-	at com.businessobjects.http.servlet.internal.BundlePathAwareServiceHandler.service(BundlePathAwareServiceHandler.java:197)
-	at com.businessobjects.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:248)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
-	at org.eclipse.equinox.servletbridge.BridgeServlet.service(BridgeServlet.java:275)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.businessobjects.pinger.TimeoutManagerFilter.doFilter(TimeoutManagerFilter.java:206)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.businessobjects.http.HttpMethodValidatorFilter.doFilter(HttpMethodValidatorFilter.java:43)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at com.businessobjects.saml.CustomSAMLDelegatingFilterProxy.doFilter(CustomSAMLDelegatingFilterProxy.java:57)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
-	at com.ibm.tivoli.integration.am.catalina.valves.AMTomcatValve.invoke(Unknown Source)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:836)
-
-|80F30B2ED3794DF3A5F376C3976D67FA258|2023 03 29 07:58:15.263|+0200|Error| |==|E| |BIlaunchpad|29677| 105|http-nio-8080-exec-26| |9|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:105.55875:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:105.55875:1|BIPSDK.EnterpriseSession:getService|srv010215.mud.internal.co.za:29677:105.55875:2|Cnh2c2m0xU7ijUFPhsvDd2caedd|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=srv010214.mud.internal.co.za:6400,token=319687JpfHwTcbNgH2UMXj06B6s0BOlm0qNG3JX319686JouD5Wr2k98qui71ZzDikUvgwTzDVTgVW, errorCode=10496
+|80F30B2ED3794DF3A5F376C3976D67FA190|2023 03 24 09:21:57.658|+0200|Error| |==|E| |BIlaunchpad|29677| 151|http-nio-8080-exec-44| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:151.35355:1|BIlaunchpad.WebApp|myserver.local:29677:151.35355:1|BIPSDK.EnterpriseSession:getService|myserver.local:29677:151.35355:2|Cnh2c2m0xU7ijUFPhsvDd2c6c88|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=309266JS6UAn59GjKbVlAh70ciX8ID2Jq0EHqtz309265JSN3YfEOJYQKHdWo7RPEENFI8FSC0yfSK, errorCode=10496
 com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
 	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
@@ -9418,7 +9167,258 @@ com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagates
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA268|2023 03 29 09:35:48.098|+0200|Error| |==|E| |BIlaunchpad|29677| 105|http-nio-8080-exec-26| |5|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:105.56697:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:105.56697:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:29677:105.56697:2|Cnh2c2m0xU7ijUFPhsvDd2cb1e1|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|80F30B2ED3794DF3A5F376C3976D67FA19d|2023 03 24 09:41:47.086|+0200|Error| |==|E| |BIlaunchpad|29677| 150|http-nio-8080-exec-43| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:150.35502:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:150.35502:1|Cnh2c2m0xU7ijUFPhsvDd2c6d11|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA1aa|2023 03 24 10:54:27.982|+0200|Error| |==|E| |BIlaunchpad|29677| 139|http-nio-8080-exec-39| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:139.37301:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:139.37301:1|Cnh2c2m0xU7ijUFPhsvDd2c73f5|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA1b6|2023 03 24 11:36:19.686|+0200|Error| |==|E| |BIlaunchpad|29677| 112|http-nio-8080-exec-33| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:112.38340:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:112.38340:1|Cnh2c2m0xU7ijUFPhsvDd2c77ef|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA1b7|2023 03 24 11:36:52.683|+0200|Error| |==|E| |BIlaunchpad|29677| 152|http-nio-8080-exec-45| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:152.38363:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:152.38363:1|Cnh2c2m0xU7ijUFPhsvDd2c7806|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA1ce|2023 03 24 13:54:46.917|+0200|Error| |==|E| |BIlaunchpad|29677| 152|http-nio-8080-exec-45| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:152.40412:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:152.40412:1|Cnh2c2m0xU7ijUFPhsvDd2c7fc2|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA1d5|2023 03 24 14:22:39.520|+0200|Error| |==|E| |BIlaunchpad|29677| 149|http-nio-8080-exec-42| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:149.41374:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:149.41374:1|Cnh2c2m0xU7ijUFPhsvDd2c8376|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA205|2023 03 24 15:03:24.393|+0200|Error| |==|E| |BIlaunchpad|29677| 141|http-nio-8080-exec-40| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:141.42411:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:141.42411:1|Cnh2c2m0xU7ijUFPhsvDd2c876f|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA206|2023 03 24 15:03:28.080|+0200|Error| |==|E| |BIlaunchpad|29677| 105|http-nio-8080-exec-26| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:105.42418:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:105.42418:1|Cnh2c2m0xU7ijUFPhsvDd2c8776|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA21f|2023 03 27 14:55:13.123|+0200|Error| |==|E| |BIlaunchpad|29677| 150|http-nio-8080-exec-43| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:150.49700:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:150.49700:1|Cnh2c2m0xU7ijUFPhsvDd2c9b86|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA251|2023 03 28 16:55:47.117|+0200|Error| |==|E| |BIlaunchpad|29677| 150|http-nio-8080-exec-43| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:150.54584:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:150.54584:1|Cnh2c2m0xU7ijUFPhsvDd2cab94|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA254|2023 03 29 07:58:15.185|+0200|Error| |==|E| |BIlaunchpad|29677| 107|http-nio-8080-exec-28| |41|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:107.55873:1|BIlaunchpad.WebApp|myserver.local:29677:107.55873:1|BIPSDK.InfoStore:query|myserver.local:29677:107.55873:3|Cnh2c2m0xU7ijUFPhsvDd2caedb|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=319687JpfHwTcbNgH2UMXj06B6s0BOlm0qNG3JX319686JouD5Wr2k98qui71ZzDikUvgwTzDVTgVW, errorCode=10496
+com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
+	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
+	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
+	at com.crystaldecisions.enterprise.ocaframework.FailoverLogonService.logonWithToken(FailoverLogonService.java:226)
+	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.reconnectCMS(ManagedSession.java:771)
+	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validateServer(ManagedSession.java:756)
+	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validateStatelessService(ManagedSession.java:574)
+	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validate(ManagedSession.java:544)
+	at com.crystaldecisions.enterprise.ocaframework.ManagedService.invoke(ManagedService.java:495)
+	at com.crystaldecisions.sdk.occa.infostore.internal._InfoStoreEx4Proxy.queryEx3(_InfoStoreEx4Proxy.java:369)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore$XRL3WireStrategy.query(InternalInfoStore.java:1747)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.queryHelper(InternalInfoStore.java:1095)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.queryHelper(InternalInfoStore.java:1083)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.query_aroundBody18(InternalInfoStore.java:932)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.query(InternalInfoStore.java:1)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InfoStore.query_aroundBody16(InfoStore.java:205)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InfoStore.query_aroundBody17$advice(InfoStore.java:525)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InfoStore.query(InfoStore.java:1)
+	at com.businessobjects.bip.core.web.boetrustguard.BOETrustValidateFilter.isSessionValid(BOETrustValidateFilter.java:97)
+	at com.businessobjects.bip.core.web.boetrustguard.BOETrustValidateFilter.doFilter(BOETrustValidateFilter.java:65)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.bip.core.web.filter.BrowserRenderingModeFilter.doFilter(BrowserRenderingModeFilter.java:38)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.bip.core.web.boetrustguard.BOETrustPrepareFilter.doFilter(BOETrustPrepareFilter.java:35)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.bip.core.web.supportabilty.TraceLogScopeFilter.doFilter(TraceLogScopeFilter.java:41)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.sdk.actionfilter.WorkflowFilter.doFilter(WorkflowFilter.java:47)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.bip.core.web.appcontext.RequestInitFilter.doFilter(RequestInitFilter.java:26)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.http.servlet.internal.BundlePathAwareServiceHandler.serviceHelper(BundlePathAwareServiceHandler.java:235)
+	at com.businessobjects.http.servlet.internal.BundlePathAwareServiceHandler.service(BundlePathAwareServiceHandler.java:197)
+	at com.businessobjects.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.eclipse.equinox.servletbridge.BridgeServlet.service(BridgeServlet.java:275)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.businessobjects.pinger.TimeoutManagerFilter.doFilter(TimeoutManagerFilter.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.businessobjects.http.HttpMethodValidatorFilter.doFilter(HttpMethodValidatorFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.businessobjects.saml.CustomSAMLDelegatingFilterProxy.doFilter(CustomSAMLDelegatingFilterProxy.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at com.ibm.tivoli.integration.am.catalina.valves.AMTomcatValve.invoke(Unknown Source)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:836)
+
+|80F30B2ED3794DF3A5F376C3976D67FA255|2023 03 29 07:58:15.222|+0200|Error| |==|E| |BIlaunchpad|29677| 112|http-nio-8080-exec-33| |13|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:112.55874:1|BIlaunchpad.WebApp|myserver.local:29677:112.55874:1|BIPSDK.InfoStore:query|myserver.local:29677:112.55874:3|Cnh2c2m0xU7ijUFPhsvDd2caedc|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=319687JpfHwTcbNgH2UMXj06B6s0BOlm0qNG3JX319686JouD5Wr2k98qui71ZzDikUvgwTzDVTgVW, errorCode=10496
+com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
+	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
+	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
+	at com.crystaldecisions.enterprise.ocaframework.FailoverLogonService.logonWithToken(FailoverLogonService.java:226)
+	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.reconnectCMS(ManagedSession.java:771)
+	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validateServer(ManagedSession.java:756)
+	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validateStatelessService(ManagedSession.java:574)
+	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validate(ManagedSession.java:544)
+	at com.crystaldecisions.enterprise.ocaframework.ManagedService.invoke(ManagedService.java:495)
+	at com.crystaldecisions.sdk.occa.infostore.internal._InfoStoreEx4Proxy.queryEx3(_InfoStoreEx4Proxy.java:369)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore$XRL3WireStrategy.query(InternalInfoStore.java:1747)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.queryHelper(InternalInfoStore.java:1095)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.queryHelper(InternalInfoStore.java:1083)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.query_aroundBody18(InternalInfoStore.java:932)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.query(InternalInfoStore.java:1)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InfoStore.query_aroundBody16(InfoStore.java:205)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InfoStore.query_aroundBody17$advice(InfoStore.java:525)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InfoStore.query(InfoStore.java:1)
+	at com.businessobjects.bip.core.web.boetrustguard.BOETrustValidateFilter.isSessionValid(BOETrustValidateFilter.java:97)
+	at com.businessobjects.bip.core.web.boetrustguard.BOETrustValidateFilter.doFilter(BOETrustValidateFilter.java:65)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.bip.core.web.filter.BrowserRenderingModeFilter.doFilter(BrowserRenderingModeFilter.java:38)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.webutil.boetrustguard.ClickjackingPreventionFilter.doFilter(ClickjackingPreventionFilter.java:66)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.bip.core.web.boetrustguard.BOETrustPrepareFilter.doFilter(BOETrustPrepareFilter.java:35)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.bip.core.web.supportabilty.TraceLogScopeFilter.doFilter(TraceLogScopeFilter.java:41)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.sdk.actionfilter.WorkflowFilter.doFilter(WorkflowFilter.java:47)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.bip.core.web.appcontext.RequestInitFilter.doFilter(RequestInitFilter.java:26)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.http.servlet.internal.BundlePathAwareServiceHandler.serviceHelper(BundlePathAwareServiceHandler.java:235)
+	at com.businessobjects.http.servlet.internal.BundlePathAwareServiceHandler.service(BundlePathAwareServiceHandler.java:197)
+	at com.businessobjects.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.eclipse.equinox.servletbridge.BridgeServlet.service(BridgeServlet.java:275)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.businessobjects.pinger.TimeoutManagerFilter.doFilter(TimeoutManagerFilter.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.businessobjects.http.HttpMethodValidatorFilter.doFilter(HttpMethodValidatorFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.businessobjects.saml.CustomSAMLDelegatingFilterProxy.doFilter(CustomSAMLDelegatingFilterProxy.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at com.ibm.tivoli.integration.am.catalina.valves.AMTomcatValve.invoke(Unknown Source)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:836)
+
+|80F30B2ED3794DF3A5F376C3976D67FA258|2023 03 29 07:58:15.263|+0200|Error| |==|E| |BIlaunchpad|29677| 105|http-nio-8080-exec-26| |9|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:105.55875:1|BIlaunchpad.WebApp|myserver.local:29677:105.55875:1|BIPSDK.EnterpriseSession:getService|myserver.local:29677:105.55875:2|Cnh2c2m0xU7ijUFPhsvDd2caedd|||||||||com.crystaldecisions.enterprise.ocaframework.FailoverLogonService||logonWithToken(): Failed to relogon, aps=myserver.local:6400,token=319687JpfHwTcbNgH2UMXj06B6s0BOlm0qNG3JX319686JouD5Wr2k98qui71ZzDikUvgwTzDVTgVW, errorCode=10496
+com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuse: IDL:img.seagatesoftware.com/OCA/oca_abuse:3.2
+	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.oca_abuseHelper.read(oca_abuseHelper.java:106)
+	at com.crystaldecisions.enterprise.ocaframework.idl.OCA.OCAs._LogonEx6Stub.LogonWithTokenEx5(_LogonEx6Stub.java:488)
+	at com.crystaldecisions.enterprise.ocaframework.FailoverLogonService.logonWithToken(FailoverLogonService.java:226)
+	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.reconnectCMS(ManagedSession.java:771)
+	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validateServer(ManagedSession.java:756)
+	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.validateStatelessService(ManagedSession.java:574)
+	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.newService(ManagedSession.java:983)
+	at com.crystaldecisions.enterprise.ocaframework.ManagedSession.get(ManagedSession.java:278)
+	at com.crystaldecisions.enterprise.ocaframework.ManagedSessions.get(ManagedSessions.java:301)
+	at com.crystaldecisions.enterprise.ocaframework.ServiceMgr.getManagedService_aroundBody4(ServiceMgr.java:539)
+	at com.crystaldecisions.enterprise.ocaframework.ServiceMgr.getManagedService(ServiceMgr.java:1)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.init(InternalInfoStore.java:1527)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStore.<init>(InternalInfoStore.java:179)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InternalInfoStoreFactory.makeOCCA(InternalInfoStoreFactory.java:119)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InfoStore.<init>(InfoStore.java:101)
+	at com.crystaldecisions.sdk.occa.infostore.internal.InfoStoreFactory.makeOCCA(InfoStoreFactory.java:62)
+	at com.crystaldecisions.sdk.framework.internal.EnterpriseSession.getService_aroundBody14(EnterpriseSession.java:341)
+	at com.crystaldecisions.sdk.framework.internal.EnterpriseSession.getService(EnterpriseSession.java:1)
+	at com.crystaldecisions.sdk.framework.internal.EnterpriseSession.getService_aroundBody16(EnterpriseSession.java:361)
+	at com.crystaldecisions.sdk.framework.internal.EnterpriseSession.getService_aroundBody17$advice(EnterpriseSession.java:525)
+	at com.crystaldecisions.sdk.framework.internal.EnterpriseSession.getService(EnterpriseSession.java:1)
+	at com.businessobjects.bip.core.web.boetrustguard.BOETrustValidateFilter.isSessionValid(BOETrustValidateFilter.java:96)
+	at com.businessobjects.bip.core.web.boetrustguard.BOETrustValidateFilter.doFilter(BOETrustValidateFilter.java:65)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.webutil.boetrustguard.ClickjackingPreventionFilter.doFilter(ClickjackingPreventionFilter.java:66)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.sap.tc.ls.servlet.UCFServletFilter.doFilter(UCFServletFilter.java:609)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.bip.core.web.boetrustguard.BOETrustPrepareFilter.doFilter(BOETrustPrepareFilter.java:35)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.bip.core.web.supportabilty.TraceLogScopeFilter.doFilter(TraceLogScopeFilter.java:41)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.sdk.actionfilter.WorkflowFilter.doFilter(WorkflowFilter.java:47)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.bip.core.web.appcontext.RequestInitFilter.doFilter(RequestInitFilter.java:26)
+	at com.businessobjects.http.servlet.internal.FilterRegistration.doFilter(FilterRegistration.java:72)
+	at com.businessobjects.http.servlet.internal.filter.FilterChainImpl.doFilter(FilterChainImpl.java:43)
+	at com.businessobjects.http.servlet.internal.BundlePathAwareServiceHandler.serviceHelper(BundlePathAwareServiceHandler.java:235)
+	at com.businessobjects.http.servlet.internal.BundlePathAwareServiceHandler.service(BundlePathAwareServiceHandler.java:197)
+	at com.businessobjects.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.eclipse.equinox.servletbridge.BridgeServlet.service(BridgeServlet.java:275)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.businessobjects.pinger.TimeoutManagerFilter.doFilter(TimeoutManagerFilter.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.businessobjects.http.HttpMethodValidatorFilter.doFilter(HttpMethodValidatorFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.businessobjects.saml.CustomSAMLDelegatingFilterProxy.doFilter(CustomSAMLDelegatingFilterProxy.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at com.ibm.tivoli.integration.am.catalina.valves.AMTomcatValve.invoke(Unknown Source)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:836)
+
+|80F30B2ED3794DF3A5F376C3976D67FA268|2023 03 29 09:35:48.098|+0200|Error| |==|E| |BIlaunchpad|29677| 105|http-nio-8080-exec-26| |5|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:105.56697:1|BIlaunchpad.WebApp|myserver.local:29677:105.56697:1|BIPSDK.SessionMgr:logon|myserver.local:29677:105.56697:2|Cnh2c2m0xU7ijUFPhsvDd2cb1e1|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -9497,7 +9497,7 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA269|2023 03 29 09:37:19.084|+0200|Error| |==|E| |BIlaunchpad|29677| 149|http-nio-8080-exec-42| |17|0|1|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:149.56903:1|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:149.56903:1|BIPSDK.SessionMgr:logon|srv010215.mud.internal.co.za:29677:149.56903:2|Cnh2c2m0xU7ijUFPhsvDd2cb2ae|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
+|80F30B2ED3794DF3A5F376C3976D67FA269|2023 03 29 09:37:19.084|+0200|Error| |==|E| |BIlaunchpad|29677| 149|http-nio-8080-exec-42| |17|0|1|0|BIlaunchpad.WebApp|myserver.local:29677:149.56903:1|BIlaunchpad.WebApp|myserver.local:29677:149.56903:1|BIPSDK.SessionMgr:logon|myserver.local:29677:149.56903:2|Cnh2c2m0xU7ijUFPhsvDd2cb2ae|||||||||com.crystaldecisions.sdk.framework.internal.TrustedPrincipal||Encryption error: null
 com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKeyHelper(StrongStringHandler.java:124)
 	at com.crystaldecisions.celib.stringhandler.StrongStringHandler.makeKey(StrongStringHandler.java:88)
@@ -9576,5 +9576,5 @@ com.crystaldecisions.celib.stringhandler.StringHandlerException$Unexpected
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:836)
 
-|80F30B2ED3794DF3A5F376C3976D67FA300|2023 03 30 09:44:55.750|+0200|Error| |==|E| |BIlaunchpad|29677| 112|http-nio-8080-exec-33| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:112.64770:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:112.64770:1|Cnh2c2m0xU7ijUFPhsvDd2cce98|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
-|80F30B2ED3794DF3A5F376C3976D67FA302|2023 03 30 09:49:51.805|+0200|Error| |==|E| |BIlaunchpad|29677| 141|http-nio-8080-exec-40| |0|0|0|0|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:141.65077:1|-|-|BIlaunchpad.WebApp|srv010215.mud.internal.co.za:29677:141.65077:1|Cnh2c2m0xU7ijUFPhsvDd2ccfc8|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA300|2023 03 30 09:44:55.750|+0200|Error| |==|E| |BIlaunchpad|29677| 112|http-nio-8080-exec-33| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:112.64770:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:112.64770:1|Cnh2c2m0xU7ijUFPhsvDd2cce98|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
+|80F30B2ED3794DF3A5F376C3976D67FA302|2023 03 30 09:49:51.805|+0200|Error| |==|E| |BIlaunchpad|29677| 141|http-nio-8080-exec-40| |0|0|0|0|BIlaunchpad.WebApp|myserver.local:29677:141.65077:1|-|-|BIlaunchpad.WebApp|myserver.local:29677:141.65077:1|Cnh2c2m0xU7ijUFPhsvDd2ccfc8|||||||||com.businessobjects.bip.core.web.session.TimeoutSessionServlet||getAttribute: Session already invalidated
